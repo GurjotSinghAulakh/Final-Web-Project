@@ -106,7 +106,7 @@ footer {
 
 /* ------------------- Responsive ----------------------*/
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
 /*----------------- Navigation-bar ---------------------*/
     nav {
@@ -119,7 +119,7 @@ footer {
     }
 }
 
-@media (max-width: 425px) {
+@media only screen and (max-width: 425px) {
 
 /*----------------- Navigation-bar ---------------------*/
     nav {
@@ -173,7 +173,7 @@ footer {
     }
 }
 
-@media (max-width: 375px) {
+@media only screen and  (max-width: 375px) {
 /*----------------- Navigation-bar ---------------------*/
     .menu ul li a{
         font-size: 12px;
@@ -186,7 +186,7 @@ footer {
     }
 }
 
-@media (max-width: 320px) {
+@media only screen and  (max-width: 320px) {
 /*----------------- Navigation-bar ---------------------*/
     .menu ul li a{
     font-size: 12px;
