@@ -103,3 +103,98 @@ footer {
     padding: 0px 10px 0px 0px;
     font-size: 18px;
 }
+
+/* ------------------- Responsive ----------------------*/
+
+@media (max-width: 768px) {
+
+/*----------------- Navigation-bar ---------------------*/
+    nav {
+        height: 140px;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        margin: 20px 10px;
+    }
+}
+
+@media (max-width: 425px) {
+
+/*----------------- Navigation-bar ---------------------*/
+    nav {
+        height: 80px;
+    }
+
+    .logo {
+        margin: 15px 0px 0px 40%;
+    }
+
+    .logo a{
+        font-size: 22px;   
+        font-weight: bold;
+    }
+
+    .logo p{
+        font-size: 14px;   
+    }
+
+    .menu {
+        margin-top: 15px;
+        margin-right: 0px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        margin: 0px 10px;
+    }
+
+    .menu ul li a{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+/*-------------- HomePage Bk-image & text -------------*/
+    .bk-img {
+        margin-top: 15%;
+    }
+
+    .wrapper {
+        width: 75%;
+        margin: 0px auto;
+        padding-top: 20px;
+    }
+
+/*----------------------- Footer -----------------------*/
+    footer {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+/*----------------- Navigation-bar ---------------------*/
+    .menu ul li a{
+        font-size: 12px;
+        margin-right: 0px;
+    }
+
+/*----------------------- Footer -----------------------*/
+    footer {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+/*----------------- Navigation-bar ---------------------*/
+    .menu ul li a{
+    font-size: 12px;
+    margin-right: 0px;
+    }
+
+/*-------------- HomePage Bk-image & text -------------*/
+    .bk-img {
+        margin-top: 25%;
+    }
+}
