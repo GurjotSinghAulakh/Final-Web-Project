@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+/*----------------- Navigation-bar ---------------------*/
+nav {
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    margin: 20px 0px 0px 100px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.logo a{
+    font-size: 32px;   
+    font-weight: bold;
+}
+
+.logo p{
+    font-size: 18px;   
+}
+
+.menu {
+    float: right;
+    margin-right: 100px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 50px 20px;
+}
+
+.menu ul li a{
+    font-size: 14px;
+}
+
+/*-------------- HomePage Bk-image & text -------------*/
+
+.bk-img {
+    background-image: url(../images/Homepage_background_image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 525px;
+    opacity: 0.85;
+}
+
+.wrapper {
+    width: 85%;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+.important-info {
+    padding: 50px 0px 50px 0px;
+}
+
+.important-info h1{
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.important-info p{
+    padding: 10px 5px 20px 5px;
+    line-height: 24px;
+    border: 2px solid #3F3F3F;
+}
+
+/*----------------------- Footer -----------------------*/
+
+footer {
+    background-color: #F3F3F3;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.left-side {
+    float: left;
+}
+
+.right-side {
+    float: right;
+}
+
+.copyright {
+    padding-top: 140px;
+    text-align: center;
+}
+
+.s-media a{
+    padding: 0px 10px 0px 0px;
+    font-size: 18px;
+}
