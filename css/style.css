@@ -1,4 +1,4 @@
-* {
+body {
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -75,6 +75,21 @@ nav {
   padding: 10px 5px 20px 5px;
   line-height: 24px;
   border: 2px solid #3f3f3f;
+}
+
+/*---- content  -----*/
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-column-1 {
+  width: 50%;
+}
+.flex-column-2 {
+  width: 50%;
 }
 
 .fact-box {
