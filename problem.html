@@ -8,6 +8,7 @@
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/problem.css" />
     <title>Document</title>
   </head>
 
@@ -16,7 +17,7 @@
     <header>
       <nav>
         <div class="logo">
-          <a href="#">Logo</a>
+          <a href="index.html">Logo</a>
           <p>Slogan</p>
         </div>
 
@@ -34,17 +35,23 @@
 
     <!----------------------------- HomePage Bk-image & text --------------------------------->
     <main>
-      <div class="bk-img">
+
         <!-- <img src="images/Homepage_background_image.jpeg" alt="Background image"> -->
-      </div>
-      <section class="wrapper">
-            <h1>The Problem</h1>
+      <section class="content-wrapper">
+        <section class="flex-container content-container">
+          <div class="content-text content-col-s">
+            <h3>The Problem</h3>
             <p>
-           Climate change is one of the most monumental challenges facing mankind today. It is listed as one of the United Nations 17 development goals. To combat the problem, they specify the need for improving education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning.
+           To combat climate change, the UN specify the need for improving education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning.
            </p>
-        <div class="fact-box">
-            <h2>Facts on expected climate change</h2>
-            <!-- Hadde vært fint å få denne til å se ut som noe a la faktaboksen her https://www.nrk.no/norge/mer-opptatt-av-klima-enn-noen-gang-1.11728095 --> 
+          </div>
+          <img class="content-image" src="images/markus-spiske-RN14PbITnnM-unsplash.jpg"/>
+        </section>
+      <section class="flex-container content-container">
+          <img class="content-image" src="images/markus-spiske-FLGOQ1Kgn_E-unsplash.jpg"/>
+
+        <div class="content-text content-col-s">
+            <h3>Climate change facts</h3>
             <ul>
                 <li>From 1880 to 2012, average global temperature increased by 0.85°C</li>
                 <li>Oceans have warmed, the amounts of snow and ice have diminished and sea level has risen. 
@@ -53,15 +60,23 @@
                 <li>Global emissions of carbon dioxide (CO2) have increased by almost 50 per cent since 1990</li>
                 <li><a href="https://www.ipcc.ch/">(Source: Intergovernmental Panel on Climate Change)</a></li>
             </ul>
+            <a class="button-primary" href="https://www.un.org/sustainabledevelopment/climate-change">Learn more</a>
         </div>
+      </section>
 
+
+      <section class="content-container content-text content-end">
+        <div class="end-text">
         <p>
-            Over the past years we have seen a surge in content from literature, celebrities & influencers, internet communities regarding this question. One may think that this has made us well informed, but most people are still not aware of two essentials:
+            Most people still can not confidently answer the following
             <ul>
              <li>What is my carbon footprint?</li>
              <li>What are the optimal measures to reduce it?</li>
             </ul>
         </p>
+        <a href="solution.html" class="button-primary">Get started</a>
+        </div>
+      </section>
 
       </section>
     </main>
