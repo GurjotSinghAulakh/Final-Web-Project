@@ -18,6 +18,7 @@ nav {
     position: fixed;
     background-color: white;
     z-index: 1;
+    border-bottom: 1px solid #192e2f;
 }
 
 .logo {
@@ -30,12 +31,12 @@ nav {
 
 .logo-txt {
     float: right;
-    margin: 20px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
 }
 
 .logo-img{
     float: left;
-    width: 30%;
+    width: 40%;
 }
 
 .logo-img img {
@@ -50,12 +51,12 @@ nav {
 
 .logo-txt h1 {
     font-size: 30px;
-    color: #2F0A74;
+    color: #4AA670;
 }
 
 .logo-txt h1 span{
     font-size: 30px;
-    color: #A30C68;
+    color: #9AD63B;
 }
 
 /* .logo p{
@@ -123,7 +124,7 @@ nav {
     padding: 20px 35px;
     /* color: rgba(0, 0, 0, 0.666); */
     color: #cbc38a;
-    border: 2px solid  #192e2f;
+    text-align: center;
 } 
 
 .main-txt h1 span {
