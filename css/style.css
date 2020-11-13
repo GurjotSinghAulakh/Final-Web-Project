@@ -81,19 +81,57 @@ nav {
     color: #192e2f;
     font-weight: bold;
     border-bottom: 2px solid #192e2f;
+    /* border: 2px solid black;
+    padding: 5px 5px; */
 }
 
+.active:hover {
+    /* background-color: #cbc38a; */
+    border-bottom: 3px solid #4AA670;
+    color:#4AA670;
+} 
 
-.menu ul li a:hover {
+
+/* .active:active {
+    content: "";
+    display: block;
+    clear: both;
+    width: 100%;
+    transition: 0.2s all ease-out;
+}  */
+
+/* .menu ul li a:hover {
     color: #cbc38a;
     border-bottom: 2px solid #cbc38a;
-    transition: 0.3s ease-in-out;
-}
+    transition: 0.3s ease-in-out; 
+    height: 2px;
+    width: 100%;
+    color: #1C7D44;
+    border-radius: 2px;
+    transition: 0.2s all ease-out;
+} */
+/*
+.menu ul li a .active::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 2px;
+    width: 100%;
+    color: #1C7D44;
+    border-radius: 2px;
+    transition: 0.2s all ease-out;
+} */
 
-.menu ul li a:focus {
-    color: #cbc38a;
-    border-bottom: 2px solid #cbc38a;
-}
+/* .menu ul li a::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 2px;
+    width: 100%;
+    color: #1C7D44;
+    border-radius: 2px;
+    transition: .2s all ease-out;
+} */
 
 
 /*
