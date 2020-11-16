@@ -1,0 +1,54 @@
+.app-page-banner {
+    position: relative;
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.app-page-banner-txt h1 {
+    position: absolute;
+    width: 50%;
+    top: 40%;
+    left: 40%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 50px;
+    padding: 20px 35px;
+    /* color: rgba(0, 0, 0, 0.666); */
+    color: #cbc38a;
+    text-align: center;
+} 
+
+.app-page-banner-txt h2 {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 40%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 50px;
+    padding: 20px 35px;
+    /* color: rgba(0, 0, 0, 0.666); */
+    color: #cbc38a;
+    font-size: 28px;
+    text-align: center;
+} 
+
+.app-page-banner-txt h1 span {
+    /* color: rgba(203, 96, 2, 0.934); */
+    color: #006d23;
+}
+
+.app-page-banner-txt h2 span {
+    /* color: rgba(203, 96, 2, 0.934); */
+    color: #006d23;
+}
+
+.iphone-app-banner {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+} 
+
+.iphone-app-banner img{
+    width: 80%;
+} 
