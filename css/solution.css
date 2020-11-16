@@ -1,3 +1,4 @@
+/*-------------- Solution Page Banner -------------------*/
 .solution-page-banner {
     position: relative;
     margin: 0px auto;
@@ -14,7 +15,6 @@
     letter-spacing: 1px;
     line-height: 50px;
     padding: 20px 35px;
-    /* color: rgba(0, 0, 0, 0.666); */
     color: #cbc38a;
     text-align: center;
 }
@@ -31,7 +31,6 @@
     letter-spacing: 1px;
     line-height: 50px;
     padding: 20px 35px;
-    /* color: rgba(0, 0, 0, 0.666); */
     color: #cbc38a;
     text-align: center;
     font-size: xx-large;

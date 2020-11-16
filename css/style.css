@@ -43,12 +43,6 @@ nav {
   width: 100%;
 }
 
-/* .logo a{
-    font-size: 32px;   
-    font-weight: bold;
-    color: #192e2f;
-} */
-
 .logo-txt h1 {
     font-size: 30px;
     color: #4AA670;
@@ -58,11 +52,6 @@ nav {
     font-size: 30px;
     color: #9AD63B;
 }
-
-/* .logo p{
-    font-size: 18px;  
-    color: #192e2f; 
-} */
 
 .menu {
   float: right;
@@ -96,57 +85,7 @@ nav {
     color:#4AA670;
 }
 
-
-/* .active:active {
-    content: "";
-    display: block;
-    clear: both;
-    width: 100%;
-    transition: 0.2s all ease-out;
-}  */
-
-/* .menu ul li a:hover {
-    color: #cbc38a;
-    border-bottom: 2px solid #cbc38a;
-    transition: 0.3s ease-in-out; 
-    height: 2px;
-    width: 100%;
-    color: #1C7D44;
-    border-radius: 2px;
-    transition: 0.2s all ease-out;
-} */
-/*
-.menu ul li a .active::after {
-    content: "";
-    display: block;
-    clear: both;
-    height: 2px;
-    width: 100%;
-    color: #1C7D44;
-    border-radius: 2px;
-    transition: 0.2s all ease-out;
-} */
-
-/* .menu ul li a::after {
-    content: "";
-    display: block;
-    clear: both;
-    height: 2px;
-    width: 100%;
-    color: #1C7D44;
-    border-radius: 2px;
-    transition: .2s all ease-out;
-} */
-
-/*
-.menu ul li a:active{
-
-    color: yellow;
-    background-color: #7BA9A9; 
-}
-*/
-
-/*-------------- HomePage Bk-image & text -------------*/
+/*---------------------- Home Page Banner -------------------*/
 
 .main-bk {
   position: relative;
@@ -187,6 +126,8 @@ nav {
 .iphone-app-img img {
   width: 80%;
 }
+
+/*---------------------- Home Page Challenge -------------------*/
 
 .wrapper {
   margin: 0px auto;
@@ -231,6 +172,8 @@ nav {
   text-decoration: none;
 }
 
+/*---------------------- Home Page Solution -------------------*/
+
 .solution {
   float: right;
   width: 60%;
@@ -259,85 +202,7 @@ nav {
   width: 80%;
 }
 
-/* 
-.txt-on-right-corner h2 {
-    position: absolute;
-    color: green;
-    font-size: 20px;
-    top: 20%;
-    left: 5%;
-    transform: translate(-50%, -50%);
-}
-
-.txt-on-right-corner h3 {
-    position: absolute;
-    color:black;
-    font-size: 14px;
-    top: 20%;
-    left: 5%;
-    padding: 10px 10px;
-    transform: translateX(-50%);
-    font-weight: 400;
-} 
-*/
-
-/* 
-.bk-img{
-    margin-top: 95px;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background-image: url(../images/climate.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.85;
-}
-
-.quote {
-    position: absolute;
-    max-width: 700px;
-    top: 50%;
-    left: 50%;
-    padding: 50px;
-    transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.85);
-}
-
-.quote span{
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    line-height: 30px;
-    
-}
-
-.quote p {
-    padding-top: 30px;
-    
-}
-
-.container {
-    margin: 0 auto;
-    width: 90%;
-}
-
-
-.important-info {
-    padding: 50px 20px 50px 20px;
-}
-
-.important-info h1{
-    letter-spacing: 1px;
-    padding-bottom: 20px;
-}
-
-.important-info p{
-    padding: 10px 5px 20px 5px;
-    line-height: 24px;
-    border: 2px solid #3F3F3F;
-} 
-
-*/
+/*--------------------------- Talk To Us Form ---------------------*/
 
 .talk-to-us-wrapper {
   margin: 0px auto;
@@ -421,6 +286,8 @@ nav {
   text-decoration: none;
 }
 
+/*--------------------------- Contact Us media ---------------------*/
+
 .contact-us-media {
   float: right;
   width: 50%;
@@ -499,10 +366,10 @@ footer {
     color: black;
 }
 
-@media only screen and (max-width: 960px) {
-  /*----------------- Navigation-bar ---------------------*/
+/* @media only screen and (max-width: 960px) {
+  /*----------------- Navigation-bar ---------------------*
   .logo {
-    /* background-color: aqua; */
+    background-color: aqua; 
     float: none;
     text-align: center;
     margin: 10px 0 0 0;
@@ -587,4 +454,4 @@ footer {
   .menu ul li a {
     font-size: 12px;
   }
-}
+} */
