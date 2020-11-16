@@ -7,7 +7,7 @@
 .app-page-banner-txt h1 {
     position: absolute;
     width: 50%;
-    top: 40%;
+    top: 30%;
     left: 40%;
     font-weight: 700;
     letter-spacing: 1px;
@@ -21,7 +21,7 @@
 .app-page-banner-txt h2 {
     position: absolute;
     width: 50%;
-    top: 50%;
+    top: 40%;
     left: 40%;
     font-weight: 700;
     letter-spacing: 1px;
@@ -52,3 +52,61 @@
 .iphone-app-banner img{
     width: 80%;
 } 
+
+
+.app-wrapper {
+    margin: 0px auto;
+    width: 80%;
+    height: 100vh;
+}
+
+.protoype1 {
+    float: left;
+    width: 60%;
+    margin: 100px auto;
+}
+
+.protoype1 h1 {
+    color: #192e2f;
+    font-size: 35px;
+}
+
+.protoype1 p {
+    padding: 30px 0px;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.globe-img img{
+    margin: 150px auto;
+    float: right;
+}
+
+.protoype2 {
+    float: right;
+    width: 60%;
+    margin: 50px auto;
+}
+
+.protoype2 h1 {
+    color: #192e2f;
+    font-size: 35px;
+}
+
+.protoype2 p {
+    padding: 30px 0px;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.mobile-app-img {
+    width: 30%;
+}
+
+.mobile-app-img img {
+    margin: 100px auto;
+    float: left;
+    width: 80%;
+}

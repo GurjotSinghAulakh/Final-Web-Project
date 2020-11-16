@@ -22,3 +22,21 @@
 .solution-page-banner-txt h1 span {
     color: #006d23;
 }
+
+.solution-page-banner-txt p {
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 50px;
+    padding: 20px 35px;
+    /* color: rgba(0, 0, 0, 0.666); */
+    color: #cbc38a;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.solution-page-banner-txt p span {
+    color: #006d23;
+}
