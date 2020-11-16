@@ -39,3 +39,41 @@
 .solution-page-banner-txt p span {
     color: #006d23;
 }
+
+.solution-page-wrapper {
+    margin: 0px auto;
+    width: 90%;
+}
+
+.solution-page-content {
+    width: 100%;
+    margin: 50px auto;
+    height: 100vh;
+    float: left;
+    border: 1px solid black;
+    background-color: #f4f4f4;
+    border: 1px solid #f4f4f4;
+    border-radius: 20px;
+}
+
+.solution-page-content h1 { 
+    margin: 50px 20px;
+    text-transform: uppercase;
+}
+
+.solution-page-content p {
+    margin: 50px 20px;
+    line-height: 35px;
+}
+
+.co2-image {
+    width: 35%;
+    float: right;
+}
+
+.co2-image img {
+    width: 90%;
+    border-radius: 20px;
+    margin: 200px 20px;
+}
+
