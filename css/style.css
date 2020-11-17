@@ -511,11 +511,11 @@ footer {
   width: 80%;
   text-align: center;
 }
-*/
 .footer-links {
-  /* float: left; */
+  /* float: left; 
   padding: 50px 20px;
 }
+*/
 
 .footer-links ul li {
   display: inline-block;
