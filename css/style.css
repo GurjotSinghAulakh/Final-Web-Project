@@ -346,8 +346,6 @@ nav {
 /*----------------------- Footer -----------------------*/
 
 footer {
-<<<<<<< Updated upstream
-=======
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -500,7 +498,6 @@ footer {
 }
 
 /* footer {
->>>>>>> Stashed changes
   margin: 0px auto;
   width: 100%;
   background-color: #f3f3f3;
@@ -514,7 +511,7 @@ footer {
   width: 80%;
   text-align: center;
 }
-
+*/
 .footer-links {
   /* float: left; */
   padding: 50px 20px;
