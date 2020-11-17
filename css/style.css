@@ -528,8 +528,7 @@ footer {
 }
 
 .footer-links a:hover {
-  border-bottom: 2px solid #4aa670;
-  color: #4aa670;
+  color: black;
 }
 
 .contact-info {
