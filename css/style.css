@@ -4,9 +4,12 @@
   text-decoration: none;
   box-sizing: border-box;
   list-style: none;
-
   color: black;
 }
+
+/* body {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+} */
 
 /*----------------- Navigation-bar ---------------------*/
 nav {
@@ -16,7 +19,7 @@ nav {
   top: 0px;
   overflow: hidden;
   position: fixed;
-  background-color: white;
+  background-color: whitesmoke;
   z-index: 1;
   border-bottom: 1px solid #192e2f;
 }
@@ -32,11 +35,13 @@ nav {
 .logo-txt {
   float: right;
   margin: 25px 0px 0px 0px;
+  /* border: 2px solid black; */
 }
 
 .logo-img {
   float: left;
   width: 40%;
+  /* border: 2px solid black; */
 }
 
 .logo-img img {
@@ -58,6 +63,7 @@ nav {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding-right: 20px;
+  /* border: 2px solid black; */
 }
 
 .menu ul li {
@@ -88,9 +94,10 @@ nav {
 /*-------------- HomePage Bk-image & text -------------*/
 
 .main-bk {
-  position: relative;
+  /*position: relative;*/
   background-color: whitesmoke;
   height: 100vh;
+  /* border: 1px solid black; */
 }
 
 .main-txt h1 {
@@ -98,7 +105,7 @@ nav {
   width: 50%;
   top: 55%;
   left: 5%;
-  transform: translate(10%, -50%);
+  transform: translate(0%, -50%);
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 50px;
@@ -106,6 +113,7 @@ nav {
   /* color: rgba(0, 0, 0, 0.666); */
   color: #cbc38a;
   text-align: center;
+  /* border: 1px solid black; */
 }
 
 .main-txt h1 span {
@@ -119,26 +127,31 @@ nav {
 
 .iphone-app-img {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 70%;
+  transform: translate(-10%, 0%);
+  /* border: 1px solid black; */
 }
 
 .iphone-app-img img {
-  width: 80%;
+  width: 70%;
 }
 
 /*---------------------- Home Page Challenge -------------------*/
 
 .wrapper {
   margin: 0px auto;
-  width: 80%;
+  width: 90%;
   height: 100vh;
+  /* border: 2px solid black; */
 }
 
 .challenge {
   float: left;
   width: 60%;
-  margin: 100px auto;
+  height: 100%;
+  padding: 40px;
+  /* border: 1px solid black; */
 }
 
 .challenge h1 {
@@ -153,9 +166,14 @@ nav {
   font-size: 20px;
 }
 
-.globe-img img {
-  margin: 150px auto;
+.globe-img {
   float: right;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+.globe-img img {
+  margin: 100px auto;
 }
 
 .read-more-btn {
@@ -177,7 +195,9 @@ nav {
 .solution {
   float: right;
   width: 60%;
-  margin: 50px auto;
+  height: 100%;
+  padding: 40px;
+  /* border: 1px solid black; */
 }
 
 .solution h1 {
@@ -193,27 +213,32 @@ nav {
 }
 
 .mobile-app-img {
+  float: left;
   width: 30%;
+  height: 100%;
+  /* border: 1px solid black; */
 }
 
 .mobile-app-img img {
-  margin: 100px auto;
-  float: left;
+  margin: 50px auto;
   width: 80%;
 }
 
 /*--------------------------- Talk To Us Form ---------------------*/
 
 .talk-to-us-wrapper {
-  margin: 0px auto;
-  width: 80%;
+  margin: 50px auto;
+  width: 90%;
   height: 100vh;
   text-align: center;
+  /* border: 2px solid black; */
 }
 
 .talk-to-us {
   float: left;
   width: 50%;
+  height: 100%;
+  /* border: 2px solid black; */
 }
 
 .talk-to-us h1 {
@@ -259,7 +284,7 @@ nav {
   text-decoration: none;
   font-size: 16px;
   outline: none;
-  min-width: 260px;
+  min-width: 300px;
   min-height: 150px;
   letter-spacing: 1px;
 }
@@ -267,7 +292,9 @@ nav {
 .contact-us-img {
   float: right;
   width: 50%;
+  height: 50%;
   text-align: center;
+  /* border: 1px solid green; */
 }
 
 .contact-us-img img {
@@ -291,9 +318,11 @@ nav {
 .contact-us-media {
   float: right;
   width: 50%;
+  height: 50%;
   border: 2px solid black;
   text-align: center;
   font-size: 18px;
+  /* border: 1px solid red; */
 }
 
 .s-media p {
@@ -317,6 +346,158 @@ nav {
 /*----------------------- Footer -----------------------*/
 
 footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position:relative;
+  margin: 0;
+  bottom:0;
+  width: 100%;
+  height: auto;
+  background-color: #3a9855;
+  font-family: Verdana;
+  color: white;
+
+}
+
+.container {
+  margin: 0px auto;
+  width: 90%;
+  height: 180px;
+  text-align: center;
+  justify-content: space-evenly;
+  color: white;
+  /* border: 2px solid black;  */
+}
+
+
+.s-media{
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 25%;
+  height: 100%;
+  /* border: 2px solid antiquewhite;  */
+}
+
+
+.left-top{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 30%;
+}
+
+
+.left-top h1{
+  position: relative;
+  color: white;
+  margin: 30px;
+  cursor: pointer;
+  font-weight: 400;
+  text-transform: uppercase;
+
+}
+
+.left-center{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.left-center a{
+  position: relative;
+  padding: 0px 8px 0px 8px;
+  font-size: 22px;
+  color: #f2f2f2;
+}
+
+.support-and-contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  float: left;
+  width: 75%;
+  height: 100%;
+  /* border: 2px solid antiquewhite; */
+}
+
+.support{
+  position: relative;
+  width: 37.5%;
+  /* border: 2px solid antiquewhite; */
+}
+
+.support h4{
+  margin: 40px 0px 0px 0px;
+  height: 15%;
+
+}
+
+.support a {
+  height: 10%;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.support a:hover {
+  opacity: 0.5;
+
+}
+
+.contact-us {
+  position: relative;
+  width: 37.5%;
+  /* border: 2px solid antiquewhite; */
+}
+
+.contact-us h4{
+  margin: 40px 0px 0px 0px;
+  height: 15%;
+
+}
+
+.contact-us a {
+  margin: 70px 0px 0px 0px;
+  height: 10%;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.contact-us a:hover {
+  opacity: 0.5;
+
+}
+
+.copyright {
+  background-color: #293B2E;
+  width: 100%;
+
+}
+
+.copyright p{
+  padding: 5px 5px;
+  color: #BFBFBF;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-links a {
+  display: block;
+  margin: 10px 0px 0px 0px; 
+  color: white;  
+  font-size: 14px;
+}
+
+/* footer {
   margin: 0px auto;
   width: 100%;
   background-color: #f3f3f3;
@@ -330,11 +511,11 @@ footer {
   width: 80%;
   text-align: center;
 }
-
 .footer-links {
-  /* float: left; */
+  /* float: left; 
   padding: 50px 20px;
 }
+*/
 
 .footer-links ul li {
   display: inline-block;
