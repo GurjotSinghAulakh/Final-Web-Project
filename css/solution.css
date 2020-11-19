@@ -1,0 +1,79 @@
+/*-------------- Solution Page Banner -------------------*/
+.solution-page-banner {
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.solution-page-banner-txt h1 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 50px;
+    padding: 20px 35px;
+    color: #cbc38a;
+    text-align: center;
+}
+
+.solution-page-banner-txt h1 span {
+    color: #006d23;
+}
+
+.solution-page-banner-txt p {
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 50px;
+    padding: 20px 35px;
+    color: #cbc38a;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.solution-page-banner-txt p span {
+    color: #006d23;
+}
+
+.solution-page-wrapper {
+    margin: 0px auto;
+    width: 90%;
+}
+
+.solution-page-content {
+    width: 100%;
+    margin: 50px auto;
+    height: 100vh;
+    float: left;
+    border: 1px solid black;
+    background-color: #f4f4f4;
+    border: 1px solid #f4f4f4;
+    border-radius: 20px;
+}
+
+.solution-page-content h1 { 
+    margin: 50px 20px;
+    text-transform: uppercase;
+}
+
+.solution-page-content p {
+    margin: 50px 20px;
+    line-height: 35px;
+}
+
+.co2-image {
+    width: 35%;
+    float: right;
+}
+
+.co2-image img {
+    width: 90%;
+    border-radius: 20px;
+    margin: 200px 20px;
+}
+
