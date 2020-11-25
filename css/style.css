@@ -349,15 +349,14 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  position:relative;
+  position: relative;
   margin: 0;
-  bottom:0;
+  bottom: 0;
   width: 100%;
   height: auto;
-  background-color: #3a9855;
+  background-color: #5e7d66;
   font-family: Verdana;
   color: white;
-
 }
 
 .container {
@@ -370,8 +369,7 @@ footer {
   /* border: 2px solid black;  */
 }
 
-
-.s-media{
+.s-media {
   float: left;
   display: flex;
   flex-wrap: wrap;
@@ -381,8 +379,7 @@ footer {
   /* border: 2px solid antiquewhite;  */
 }
 
-
-.left-top{
+.left-top {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -390,26 +387,23 @@ footer {
   height: 30%;
 }
 
-
-.left-top h1{
+.left-top h1 {
   position: relative;
   color: white;
   margin: 30px;
   cursor: pointer;
   font-weight: 400;
   text-transform: uppercase;
-
 }
 
-.left-center{
+.left-center {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
 }
 
-
-.left-center a{
+.left-center a {
   position: relative;
   padding: 0px 8px 0px 8px;
   font-size: 22px;
@@ -426,16 +420,15 @@ footer {
   /* border: 2px solid antiquewhite; */
 }
 
-.support{
+.support {
   position: relative;
   width: 37.5%;
   /* border: 2px solid antiquewhite; */
 }
 
-.support h4{
+.support h4 {
   margin: 40px 0px 0px 0px;
   height: 15%;
-
 }
 
 .support a {
@@ -443,12 +436,10 @@ footer {
   color: white;
   cursor: pointer;
   text-decoration: none;
-
 }
 
 .support a:hover {
   opacity: 0.5;
-
 }
 
 .contact-us {
@@ -457,10 +448,9 @@ footer {
   /* border: 2px solid antiquewhite; */
 }
 
-.contact-us h4{
+.contact-us h4 {
   margin: 40px 0px 0px 0px;
   height: 15%;
-
 }
 
 .contact-us a {
@@ -474,26 +464,24 @@ footer {
 
 .contact-us a:hover {
   opacity: 0.5;
-
 }
 
 .copyright {
-  background-color: #293B2E;
+  background-color: #293b2e;
   width: 100%;
-
 }
 
-.copyright p{
+.copyright p {
   padding: 5px 5px;
-  color: #BFBFBF;
+  color: #bfbfbf;
   text-align: center;
   font-size: 14px;
 }
 
 .footer-links a {
   display: block;
-  margin: 10px 0px 0px 0px; 
-  color: white;  
+  margin: 10px 0px 0px 0px;
+  color: white;
   font-size: 14px;
 }
 
