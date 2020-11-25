@@ -86,7 +86,7 @@
 
 @media only screen and (max-width: 800px) {
   nav {
-    height: 120px;
+    height: 100px;
     position: relative;
     text-align: center;
   }
