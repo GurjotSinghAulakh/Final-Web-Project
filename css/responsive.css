@@ -1,499 +1,463 @@
 @media only screen and (max-width: 1024px) {
-    nav {
-        height: 100px;
-    }
+  nav {
+    height: 100px;
+  }
 
-    .logo {
-        width: 20%;
-        margin: 10px 0px 0px 20px;
-    }
+  .logo {
+    margin-left: 20px;
+  }
 
-    .logo-txt {
-        display: none;
-    }
+  .main-txt h1 {
+    width: 45%;
+    top: 60%;
+    font-size: 28px;
+    line-height: 50px;
+    text-align: start;
+    padding: 0px 15px;
+  }
 
-    .logo-img {
-        float: left;
-        width: 45%;
-    }
+  .iphone-app-img {
+    width: 40%;
+    top: 25%;
+    left: 65%;
+    transform: translate(-10%, 0%);
+  }
 
-    .menu ul li {
-        display: inline-block;
-        margin: 50px 20px 35px;
-    }
+  .iphone-app-img img {
+    width: 65%;
+  }
 
-    .main-txt h1 {
-        width: 45%;
-        top: 60%;
-        font-size: 28px;
-        line-height: 50px;
-        text-align: start;
-        padding: 0px 15px;
-    }
+  .wrapper {
+    height: auto;
+  }
 
-    .iphone-app-img {
-        width: 40%;
-        top: 25%;
-        left: 65%;
-        transform: translate(-10%, 0%);
-    }
+  .challenge {
+    width: 50%;
+    padding: 20px;
+  }
 
-    .iphone-app-img img {
-        width: 65%;
-    }
+  .challenge h1 {
+    font-size: 30px;
+  }
 
-    .wrapper {
-        height: auto;
-    }
+  .challenge p {
+    font-size: 18px;
+  }
 
-    .challenge {
-        width: 50%;
-        padding: 20px;
-    }
-          
-    .challenge h1 {
-        font-size: 30px;
-    }
+  .globe-img {
+    height: auto;
+  }
 
-    .challenge p {
-        font-size: 18px;
-    }
+  .globe-img img {
+    margin: 100px auto;
+  }
 
-    .globe-img {
-        height: auto;
-    }
+  .mobile-app-img {
+    float: left;
+    width: 30%;
+    height: 100%;
+  }
 
-    .globe-img img {
-        margin: 100px auto;
-    }
+  .mobile-app-img img {
+    margin: 160px auto;
+    width: 60%;
+  }
 
+  .solution {
+    margin: 15px auto;
+    width: 60%;
+    padding: 20px;
+    height: auto;
+  }
 
-    .mobile-app-img {
-        float: left;
-        width: 30%;
-        height: 100%;
-    }
+  .solution h1 {
+    font-size: 30px;
+  }
 
-    .mobile-app-img img {
-        margin: 160px auto;
-        width: 60%;
-    }
+  .solution p {
+    font-size: 18px;
+  }
 
-    .solution {
-        margin: 15px auto;
-        width: 60%;
-        padding: 20px;
-        height: auto;
-    }
-
-    .solution h1 {
-        font-size: 30px;
-    }
-
-    .solution p {
-        font-size: 18px;
-    }
-
-    .contact-us-img img {
-        margin: 140px auto;
-        width: 90%;
-    }
-      
-      
+  .contact-us-img img {
+    margin: 140px auto;
+    width: 90%;
+  }
 }
 
+@media only screen and (max-width: 800px) {
+  nav {
+    height: 120px;
+    position: relative;
+    text-align: center;
+  }
 
-@media only screen and (max-width: 768px) {
-    nav {
-        height: 120px;
-    }
+  .menu ul {
+    position: fixed;
+    background-color: white;
+    border-top: 1px solid #192e2f;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+  }
+  .menu ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 70px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .main-bk {
+    height: 100vh;
+  }
 
-    .logo {
-        width: 100%;
-        margin: 0px auto;
-        text-align: center;
-    }
+  .main-txt h1 {
+    width: 45%;
+    top: 60%;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: start;
+    padding: 0px 15px;
+  }
 
-    .logo-txt {
-        display: none;
-    }
+  .iphone-app-img {
+    width: 40%;
+    top: 30%;
+    left: 55%;
+    transform: translate(-10%, 0%);
+  }
 
-    .logo-img {
-        float: none;
-        width: 100%;
-    }
+  .iphone-app-img img {
+    width: 80%;
+  }
 
-    .logo-img img {
-        width: 10%;
-    }
+  .wrapper {
+    margin: 0px auto;
+    height: auto;
+  }
 
-    .menu {
-        float: none; 
-        text-align: center;
-        padding-right: 0px;
-    }
-      
-    .menu ul li {
-        margin: 10px 20px 10px;
-    }
+  .challenge {
+    width: 100%;
+    height: auto;
+  }
 
-    .main-bk {
-        height: 100vh;
-    }
-      
+  .challenge h1 {
+    font-size: 28px;
+  }
 
-    .main-txt h1 {
-        width: 45%;
-        top: 60%;
-        font-size: 22px;
-        line-height: 40px;
-        text-align: start;
-        padding: 0px 15px;
-    }
+  .challenge p {
+    font-size: 16px;
+  }
 
-    .iphone-app-img {
-        width: 40%;
-        top: 30%;
-        left: 55%;
-        transform: translate(-10%, 0%);
-    }
+  .globe-img {
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
 
-    .iphone-app-img img {
-        width: 80%;
-    }
+  .globe-img img {
+    margin: 20px auto;
+    width: 40%;
+  }
 
-    .wrapper {
-        margin: 0px auto;
-        height: auto;
-    }
+  .solution {
+    float: left;
+    width: 100%;
+    height: auto;
+  }
 
-    .challenge {
-        width: 100%;
-        height: auto;
-    }
+  .solution h1 {
+    font-size: 28px;
+  }
 
-    .challenge h1 {
-        font-size: 28px;
-    }
+  .solution p {
+    font-size: 16px;
+  }
 
-    .challenge p {
-        font-size: 16px;
-    }
+  .mobile-app-img {
+    float: left;
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+  }
 
-    .globe-img {
-        float: left;
-        width: 100%;
-        text-align: center;
-    }
+  .mobile-app-img img {
+    margin: 20px auto;
+    width: 30%;
+  }
 
-    .globe-img img {
-        margin: 20px auto;
-        width: 40%;
-    }
+  .talk-to-us-wrapper {
+    margin: 0px auto;
+    height: auto;
+  }
 
-    .solution {
-        float: left;
-        width: 100%;
-        height: auto;
-    }
+  .talk-to-us {
+    margin: 0 auto;
+    width: 100%;
+  }
 
-    .solution h1 {
-        font-size: 28px;
-    }
+  .talk-to-us h1 {
+    font-size: 28px;
+  }
 
-    .solution p {
-        font-size: 16px;
-    }
-    
-    .mobile-app-img {
-        float: left;
-        width: 50%;
-        margin: 0 auto;
-        height: auto;
-        text-align: center;
-    }
+  .contact-us-media {
+    float: right;
+    width: 45%;
+  }
 
-    .mobile-app-img img {
-        margin: 20px auto;
-        width: 30%;
-    }
-      
-    .talk-to-us-wrapper {
-        margin: 0px auto;
-        height: auto;
-    }
+  .contact-us-img {
+    margin: 25px auto;
+  }
 
-    .talk-to-us {
-        margin: 0 auto;
-        width: 100%;
-    }
+  .contact-us-img img {
+    margin: 0px auto;
+    width: 90%;
+  }
 
-    .talk-to-us h1 {
-        font-size: 28px;
-    }
+  .container {
+    width: 100%;
+    margin: 20px 20px;
+    height: auto;
+  }
 
-    .contact-us-media {
-        float: right;
-        width: 45%;
-    }
+  .s-media {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
 
-    .contact-us-img {
-        margin: 25px auto;
-    }
+  .support-and-contact-info {
+    float: left;
+    width: 100%;
+    height: auto;
+  }
 
-    .contact-us-img img {
-        margin: 0px auto;
-        width: 90%;
-    }
-      
+  .support {
+    height: fit-content;
+  }
 
-    .container {
-        width: 100%;
-        margin: 20px 20px;
-        height: auto;
-    }
+  .support h4 {
+    padding-bottom: 10px;
+  }
 
-    .s-media{
-        float: none;
-        width: 100%;
-        height: auto;
-    }
+  .contact-us {
+    height: fit-content;
+  }
 
-    .support-and-contact-info {
-        float: left;
-        width: 100%;
-        height: auto;
-    }  
+  .contact-us h4 {
+    padding-bottom: 10px;
+  }
 
-    .support{
-        height: fit-content;
-    }
-
-    .support h4{
-        padding-bottom: 10px;
-    }
-
-    .contact-us {
-        height: fit-content;
-    }
-
-    .contact-us h4{
-        padding-bottom: 10px;
-      
-    }
-      
-} 
+  footer {
+    /* bottom height has to correspond to .menu ul height */
+    bottom: 70px;
+  }
+}
 
 @media only screen and (max-width: 550px) {
-    nav {
-        height: 110px;
-    }
+  .menu ul {
+    height: 60px;
+  }
 
-    .menu ul li {
-        margin: 10px 0px 10px 0px;
-        padding: 5px;
-    }
+  .menu ul li {
+    line-height: 60px;
+    font-size: 15px;
+  }
 
-    .menu ul li a {
-        font-size: 16px; 
-    }
+  .main-txt h1 {
+    width: 45%;
+    top: 60%;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    padding: 0px 15px;
+  }
 
-    .main-txt h1 {
-        width: 45%;
-        top: 60%;
-        font-size: 20px;
-        line-height: 30px;
-        text-align: start;
-        padding: 0px 15px;
-    }
+  .iphone-app-img {
+    width: 40%;
+    top: 30%;
+    left: 55%;
+    transform: translate(-10%, 0%);
+  }
 
-    .iphone-app-img {
-        width: 40%;
-        top: 30%;
-        left: 55%;
-        transform: translate(-10%, 0%);
-    }
-
-    .iphone-app-img img {
-        width: 100%;
-    }
+  .iphone-app-img img {
+    width: 100%;
+  }
+  footer {
+    /* bottom height has to correspond to .menu ul height */
+    bottom: 60px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
-    nav {
-        height: 95px;
-    }
+  .menu ul {
+    height: 50px;
+  }
 
-    .menu ul li {
-        margin: 10px 0px 10px 0px;
-        padding-right: 0px;
-    }
+  .menu ul li {
+    line-height: 50px;
+    font-size: 13px;
+    letter-spacing: normal;
+  }
 
-    .menu ul li a {
-        font-size: 16px; 
-    }
+  .main-bk {
+    height: 70vh;
+  }
 
-    .main-bk {
-        height: 70vh;
-    }
+  .main-txt h1 {
+    width: 45%;
+    top: 40%;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: start;
+    padding: 0px 15px;
+  }
 
-    .main-txt h1 {
-        width: 45%;
-        top: 40%;
-        font-size: 16px;
-        line-height: 30px;
-        text-align: start;
-        padding: 0px 15px;
-    }
+  .iphone-app-img {
+    width: 40%;
+    top: 25%;
+    left: 55%;
+    transform: translate(-10%, 0%);
+  }
 
-    .iphone-app-img {
-        width: 40%;
-        top: 25%;
-        left: 55%;
-        transform: translate(-10%, 0%);
-    }
+  .iphone-app-img img {
+    width: 100%;
+  }
 
-    .iphone-app-img img {
-        width: 100%;
-    }
+  .challenge {
+    padding: 20px;
+  }
 
-    .challenge {
-        padding: 20px;
-    }
+  .challenge h1 {
+    font-size: 24px;
+  }
 
-    .challenge h1 {
-        font-size: 24px;
-    }
+  .challenge p {
+    font-size: 16px;
+  }
 
-    .challenge p {
-        font-size: 16px;
-    }
+  .solution {
+    padding: 20px;
+  }
 
-    .solution {
-        padding: 20px;
-    }
+  .solution h1 {
+    font-size: 24px;
+  }
 
-    .solution h1 {
-        font-size: 24px;
-    }
+  .solution p {
+    font-size: 16px;
+  }
 
-    .solution p {
-        font-size: 16px;
-    }
+  .wrapper {
+    width: 100%;
+  }
 
-    .wrapper {
-        width: 100%;
-    }
+  .container {
+    width: 100%;
+  }
 
-    .container {
-        width: 100%;
-    }
+  #msg-box {
+    width: 50%;
+  }
 
-    #msg-box {
-        width: 50%;
-    }
+  .contact-us-img {
+    float: left;
+    width: 50%;
+  }
 
-    .contact-us-img {
-        float: left;
-        width: 50%;
-    }
+  .talk-to-us-wrapper {
+    width: 100%;
+  }
 
-    .talk-to-us-wrapper {
-        width: 100%;
-    }
+  .talk-to-us {
+    margin: 0px auto;
+    float: left;
+    width: 100%;
+  }
 
-    .talk-to-us {
-        margin: 0px auto;
-        float: left;
-        width: 100%;
-    }
+  .talk-to-us h1 {
+    font-size: 24px;
+  }
 
-    .talk-to-us h1 {
-        font-size: 24px;
-    }
+  .talk-to-us p {
+    font-size: 18px;
+  }
 
-    .talk-to-us p {
-        font-size: 18px;
-    }
+  .contact-us-media {
+    margin: 20px auto;
+    float: left;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+  }
 
-    .contact-us-media {
-        margin: 20px auto;
-        float: left;
-        width: 100%;
-        height: auto;
-        border: 2px solid black;
-    }
+  .left-top h1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
 
-    .left-top h1{
-        font-size: 20px;
-        font-weight: 400;
-    }
+  .support {
+    position: relative;
+    width: 40%;
+  }
 
-    .support{
-        position: relative;
-        width: 40%;
-    }
+  .support h4,
+  .contact-us h4 {
+    font-size: 16px;
+  }
 
-    .support h4, .contact-us h4{
-        font-size: 16px;
-      
-    }
+  footer {
+    /* bottom height has to correspond to .menu ul height */
+    bottom: 60px;
+  }
 }
 
-
-
 @media only screen and (max-width: 400px) {
-    .menu ul li {
-        margin: 10px 0px 10px 0px;
-    }
+  .menu ul {
+    min-height: 50px;
+  }
+  .main-bk {
+    height: 65vh;
+    /* border: 1px solid black; */
+    position: relative;
+  }
 
-    .menu ul li a {
-        font-size: 13px; 
-    }
+  .main-txt h1 {
+    width: 45%;
+    top: 60%;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: start;
+    padding: 0px 15px;
+  }
 
-    .main-bk {
-        height:65vh;
-        /* border: 1px solid black; */
-        position: relative;
-    }
-
-    .main-txt h1 {
-        width: 45%;
-        top: 60%;
-        font-size: 16px;
-        line-height: 30px;
-        text-align: start;
-        padding: 0px 15px;
-    }
-
-    .iphone-app-img {
-        width: 40%;
-        top: 40%;
-        left: 55%;
-        transform: translate(-10%, 0%);
-    }
-
-    
+  .iphone-app-img {
+    width: 40%;
+    top: 40%;
+    left: 55%;
+    transform: translate(-10%, 0%);
+  }
+  footer {
+    /* bottom height has to correspond to .menu ul height */
+    bottom: 50px;
+  }
 }
 
 @media only screen and (max-width: 335px) {
-    .menu ul li {
-        margin: 10px 0px 10px 0px;
-    }
-
-    .menu ul li a {
-        font-size: 12px; 
-    }
-
-    .container {
-        margin: 0px auto;
-        height: auto;
-        margin-bottom: 30px;
-    }
+  .container {
+    margin: 0px auto;
+    height: auto;
+    margin-bottom: 30px;
+  }
 }
 
-@media only screen and (max-width: 320px) {
-    nav {
-        height: 80px;
-    } 
+@media only screen and (max-width: 319px) {
+  .menu ul {
+    min-width: 319px;
+  }
 }
