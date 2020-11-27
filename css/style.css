@@ -7,9 +7,9 @@
   color: black;
 }
 
-/* body {
-  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-} */
+body {
+  background-color: #f5f5f5;
+}
 
 /*----------------- Navigation-bar ---------------------*/
 nav {
@@ -65,7 +65,7 @@ nav {
 }
 
 .menu-border {
-  border-right: 2px solid #f5f5f5;
+  border-right: 2px solid #ebebeb;
 }
 
 .menu .active li {
