@@ -90,21 +90,6 @@
     position: relative;
     text-align: center;
   }
-  .logo {
-    float: none;
-    height: 80px;
-  }
-
-  .logo-txt {
-    float: none;
-    border: black 2px solid;
-  }
-  
-  .logo-img {
-    float: none;
-    text-align: center;
-    border: black 2px solid;
-  }
 
   .menu ul {
     position: fixed;
@@ -117,7 +102,7 @@
     z-index: 2;
     width: 100%;
   }
-  
+
   .menu ul li {
     float: left;
     width: 25%;
