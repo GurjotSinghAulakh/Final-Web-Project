@@ -3,6 +3,11 @@
     height: 100px;
   }
 
+  main {
+    /* has to match navbar height */
+    margin-top: 100px;
+  }
+
   .logo {
     margin-left: 20px;
   }
@@ -111,6 +116,7 @@
     margin: 0 auto;
     padding: 0;
   }
+
   .main-bk {
     height: 100vh;
   }
