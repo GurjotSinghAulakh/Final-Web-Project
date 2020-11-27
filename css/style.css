@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 /*----------------- Navigation-bar ---------------------*/
@@ -25,10 +25,6 @@ nav {
 
 .logo {
   float: left;
-  width: 200px;
-  margin: 5px 0px 0px 20px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   margin-left: 20px;
 }
 
@@ -78,7 +74,7 @@ nav {
 .menu ul li a {
   color: #192e2f;
   font-weight: bold;
-  border-bottom: 2px solid #192e2f;
+  /* border-bottom: 2px solid #192e2f; */
 }
 
 .menu-border {
