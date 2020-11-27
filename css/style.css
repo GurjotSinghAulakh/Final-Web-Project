@@ -187,6 +187,7 @@ nav {
 
 .globe-img img {
   margin: 100px auto;
+  margin-right: 50px;
 }
 
 .read-more-btn {
@@ -219,6 +220,7 @@ nav {
   width: 60%;
   height: 100%;
   padding: 40px;
+  padding-top: 80px;
 }
 
 .solution h1 {
@@ -241,6 +243,7 @@ nav {
 
 .mobile-app-img img {
   margin: 50px auto;
+  margin-left: 100px;
   width: 80%;
 }
 
