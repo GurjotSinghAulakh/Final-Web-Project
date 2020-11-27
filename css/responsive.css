@@ -3,6 +3,11 @@
     height: 80px;
   }
 
+  main {
+    /* has to match navbar height */
+    margin-top: 100px;
+  }
+
   .logo {
     margin-left: 20px;
   }
