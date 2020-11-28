@@ -21,9 +21,9 @@
 }
 
 .faq-block {
-  height: 120px;
-  border-left: 6px solid;
+  min-height: 140px;
   display: flex;
+  align-items: center;
 }
 
 .question {
@@ -40,7 +40,7 @@
   bottom: 0;
   width: 60px;
   float: left;
-  margin: 30px 20px;
+  margin-right: 20px;
 }
 
 .faq-content h3 {
@@ -55,8 +55,18 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .faq-content ul {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .faq-block {
+    min-height: 120px;
+  }
+
   .faq-icon {
     width: 40px;
+    margin-right: 10px;
   }
 
   .faq-content h1 {
@@ -64,26 +74,30 @@
   }
 
   .faq-content h3 {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 26px;
   }
 
   .faq-content p {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 660px) {
   .faq-content h1 {
     font-size: 24px;
   }
 
+  .faq-icon {
+    width: 20px;
+  }
+
   .faq-content h3 {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 20px;
   }
 
   .faq-content p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
