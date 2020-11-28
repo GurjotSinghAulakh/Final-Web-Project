@@ -183,7 +183,7 @@ nav {
 }
 
 .read-more-btn button {
-  background-color:#A35D42;
+  background-color:#0A5B00;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -195,8 +195,8 @@ nav {
 
 .read-more-btn button:hover {
   background-color: white;
-  border: #A35D42 2px solid;
-  color: #A35D42;
+  border: #0A5B00 2px solid;
+  color: #0A5B00;
 }
 
 /*---------------------- Home Page Solution -------------------*/
@@ -318,7 +318,7 @@ nav {
 }
 
 .keep-in-touch .button {
-  background-color:#57c27d;
+  background-color:#0A5B00;
   margin-top: 30px;
   padding: 10px 15px;
   border: none;
@@ -332,8 +332,8 @@ nav {
 
 .keep-in-touch .button:hover {
   background-color: white;
-  border: #57c27d 2px solid;
-  color: #57c27d;
+  border: #0A5B00 2px solid;
+  color: #0A5B00;
 }
 
 /*--------------------------- Contact Us media ---------------------*/
