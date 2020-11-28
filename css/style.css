@@ -383,50 +383,42 @@ footer {
 
 .container {
   margin: 0px auto;
-  width: 90%;
-  height: 180px;
-  text-align: center;
+  width: 80%;
+  height: 250px;
   justify-content: space-evenly;
   color: white;
 }
 
 .s-media {
   float: left;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   width: 25%;
   height: 100%;
+  text-align: center;
 }
 
 .left-top {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   width: 100%;
-  height: 30%;
+  height: fit-content;
 }
 
 .left-top h1 {
   position: relative;
   color: white;
   margin: 30px;
+  margin-left: 50px;
   cursor: pointer;
   font-weight: 400;
   letter-spacing: 0.05em;
 }
 
-.left-center {
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-}
-
 .left-center a {
   position: relative;
-  padding: 0px 8px 0px 8px;
   font-size: 22px;
-  color: #f2f2f2;
+  padding: 5px 10px 0px 30px;
+  line-height: 30px;
+  font-size: 22px;
+  color: black;
+
 }
 
 .support-and-contact-info {
@@ -436,6 +428,7 @@ footer {
   float: left;
   width: 75%;
   height: 100%;
+  text-align: center;
 }
 
 .support {
@@ -502,7 +495,7 @@ footer {
 
 .footer-links a {
   display: block;
-  margin: 10px 0px 0px 0px;
+  margin: 12px 0px 0px 0px;
   color: white;
   font-size: 14px;
   letter-spacing: 1.5px;
@@ -520,10 +513,4 @@ footer {
 
 .contact-info {
   margin-bottom: 20px;
-}
-
-.s-media a {
-  padding: 0px 10px 0px 0px;
-  font-size: 22px;
-  color: black;
 }
