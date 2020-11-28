@@ -51,7 +51,7 @@
   margin-right: 20px;
 }
 
-.faq-content h3 {
+.faq-content h2 {
   font-size: 26px;
   line-height: 40px;
   font-weight: 400;
@@ -82,7 +82,7 @@
     font-size: 30px;
   }
 
-  .faq-content h3 {
+  .faq-content h2 {
     font-size: 22px;
     line-height: 26px;
   }
@@ -95,9 +95,11 @@
 @media screen and (max-width: 660px) {
   .faq-content h1 {
     font-size: 24px;
+    padding-left: 6px;
+    padding-right: 6px;
   }
 
-  .faq-content h3 {
+  .faq-content h2 {
     font-size: 20px;
     line-height: 20px;
   }
