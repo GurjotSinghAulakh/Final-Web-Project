@@ -1,74 +1,33 @@
-/*------------------- App Page Banner -----------------*/
-
-.app-page-banner {
-  position: relative;
-  background-color: whitesmoke;
-  height: 100vh;
-}
-
-.app-page-banner-txt h1 {
-  position: absolute;
-  width: 50%;
-  top: 30%;
-  left: 40%;
-  font-weight: 700;
-  letter-spacing: 1px;
-  line-height: 50px;
-  padding: 20px 35px;
-  color: #cbc38a;
+#video-section {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding-top: 20px;
+  padding-bottom: 60px;
   text-align: center;
 }
 
-.app-page-banner-txt h2 {
-  position: absolute;
-  width: 50%;
-  top: 40%;
-  left: 40%;
-  font-weight: 700;
-  letter-spacing: 1px;
-  line-height: 50px;
-  padding: 20px 35px;
-  color: #cbc38a;
-  font-size: 28px;
-  text-align: center;
+#proto-vid {
+  max-width: 320px;
 }
-
-.app-page-banner-txt h1 span {
-  color: #006d23;
-}
-
-.app-page-banner-txt h2 span {
-  color: #006d23;
-}
-
-.iphone-app-banner {
-  position: absolute;
-  top: 25%;
-  left: 10%;
-}
-
-.iphone-app-banner img {
-  width: 80%;
-}
-
-/*----------------- Information about the app ---------------*/
 
 .app-wrapper {
-  background-color: #f4f4f4;
-  padding-top: 200px;
-  padding-left: 15px;
-  padding-right: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .feature-wrapper {
-  margin-bottom: 20px;
+  margin: 60px 15px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #cac5a4;
   max-width: 1080px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#rewards {
+  border-bottom: none;
 }
 
 #proto-vid {
@@ -86,6 +45,14 @@
   margin-bottom: 20px;
   max-height: 600px;
   border-radius: 8px;
+}
+
+#integration img {
+  box-shadow: gray;
+}
+
+#suggestions img {
+  max-height: 450px;
 }
 
 .content-text {
@@ -109,4 +76,69 @@
 .important-text {
   font-weight: 530;
   display: block;
+}
+
+@media only screen and (max-width: 991px) {
+  .feature-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+
+  .feature-row {
+    flex-direction: column-reverse;
+  }
+
+  .proto-img {
+    max-height: 400px;
+    max-width: 500px;
+    order: 1;
+  }
+
+  #suggestions img {
+    max-height: 400px;
+  }
+
+  .content-text {
+    font-size: 16px;
+    line-height: 28px;
+    width: 80%;
+  }
+
+  .content-text h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .proto-img {
+    max-height: 300px;
+    max-width: 350px;
+  }
+
+  #suggestions img {
+    max-height: 300px;
+    max-width: 350px;
+  }
+
+  .content-text {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .proto-img {
+    max-width: 98%;
+  }
+
+  #suggestions img {
+    max-width: 98%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #proto-vid {
+    max-width: 100%;
+  }
 }
