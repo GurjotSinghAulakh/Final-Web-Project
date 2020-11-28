@@ -256,11 +256,12 @@ nav {
 .talk-to-us {
   float: left;
   width: 50%;
-  height: 100%;
+  height: fit-content;
   padding-top: 90px;
   border: #1f1f1f 2px solid;
   border-radius: 30px;
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.33);
+  margin-bottom: 20px;
 }
 
 .talk-to-us h1 {
@@ -287,16 +288,17 @@ nav {
 
 #name,
 #email {
-  width: 20%;
+  width: 50%;
   padding: 8px 15px;
   text-decoration: none;
   border: none;
   border-bottom: 2px solid gray;
   font-size: 16px;
   outline: none;
-  min-width: 260px;
+  max-width: 200px;
   letter-spacing: 1px;
 }
+
 #msg-box {
   width: 70%;
   padding: 8px 15px;
@@ -304,7 +306,7 @@ nav {
   text-decoration: none;
   font-size: 16px;
   outline: none;
-  min-width: 300px;
+  max-width: 300px;
   min-height: 150px;
   letter-spacing: 1px;
 }
@@ -340,34 +342,6 @@ nav {
   color: #0a5b00;
 }
 
-/*--------------------------- Contact Us media ---------------------*/
-
-.contact-us-media {
-  float: right;
-  width: 50%;
-  height: 50%;
-  border: 2px solid black;
-  text-align: center;
-  font-size: 18px;
-}
-
-.s-media p {
-  padding: 10px 0px;
-}
-
-.s-media p span {
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.s-media li {
-  margin: 10px 0px;
-}
-
-.s-media li a {
-  padding: 0px 10px;
-  font-size: 30px;
-}
 
 /*----------------------- Footer -----------------------*/
 
@@ -381,7 +355,6 @@ footer {
   width: 100%;
   height: fit-content;
   background-color: #5e7d66;
-  font-family: Verdana;
   color: white;
 }
 
