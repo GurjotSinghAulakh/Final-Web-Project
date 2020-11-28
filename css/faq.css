@@ -17,13 +17,13 @@
 }
 
 .faq-content li {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .faq-block {
   height: 120px;
-
   border-left: 6px solid;
+  display: flex;
 }
 
 .question {
