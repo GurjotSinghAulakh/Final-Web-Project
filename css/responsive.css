@@ -1,13 +1,4 @@
 @media only screen and (max-width: 1024px) {
-  nav {
-    height: 80px;
-  }
-
-  main {
-    /* has to match navbar height */
-    margin-top: 100px;
-  }
-
   .logo {
     margin-left: 20px;
   }
@@ -91,9 +82,7 @@
 
 @media only screen and (max-width: 800px) {
   nav {
-    height: 80px;
     position: relative;
-    text-align: center;
   }
 
   .menu ul {

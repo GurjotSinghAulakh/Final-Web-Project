@@ -10,6 +10,11 @@ body {
   background-color: #ffffff;
 }
 
+.main {
+  /* has to match navbar height */
+  margin-top: 80px;
+}
+
 /*----------------- Navigation-bar ---------------------*/
 nav {
   margin: 0 auto;
