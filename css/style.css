@@ -138,39 +138,44 @@ nav {
 
 .wrapper {
   margin: 40px auto;
-  width: 90%;
-  height: 80vh;
-  border-bottom: 1px solid black;
-  height: 100vh;
+  width: 80%;
+  height: 70vh;
 }
 
 .challenge {
   float: left;
   width: 60%;
-  height: 100%;
+  height: fit-content;
   padding: 40px;
+  border: #1F1F1F 2px solid;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.33);
 }
 
 .challenge h1 {
-  color: #192e2f;
-  font-size: 35px;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 900;
 }
 
 .challenge p {
   padding: 30px 0px;
-  line-height: 30px;
-  font-weight: 500;
-  font-size: 20px;
+  line-height: 35px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  letter-spacing: 0.5px;
 }
 
 .globe-img {
   float: right;
-  height: 80%;
+  height: fit-content;
 }
 
 .globe-img img {
-  margin: 100px auto;
-  margin-right: 80px;
+  margin: 50px auto;
+  width: 80%;
 }
 
 .read-more-btn {
@@ -178,7 +183,7 @@ nav {
 }
 
 .read-more-btn button {
-  background-color:#57c27d;
+  background-color:#A35D42;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -190,8 +195,8 @@ nav {
 
 .read-more-btn button:hover {
   background-color: white;
-  border: #57c27d 2px solid;
-  color: #57c27d;
+  border: #A35D42 2px solid;
+  color: #A35D42;
 }
 
 /*---------------------- Home Page Solution -------------------*/
@@ -199,21 +204,28 @@ nav {
 .solution {
   float: right;
   width: 60%;
-  height: 100%;
+  height: fit-content;
   padding: 40px;
-  padding-top: 80px;
+  padding-top: 40px;
+  border: #1F1F1F 2px solid;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.33);
 }
 
 .solution h1 {
-  color: #192e2f;
-  font-size: 35px;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 900;
 }
 
 .solution p {
   padding: 30px 0px;
-  line-height: 30px;
-  font-weight: 500;
-  font-size: 20px;
+  line-height: 35px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  letter-spacing: 0.5px;
 }
 
 .mobile-app-img {
@@ -223,7 +235,7 @@ nav {
 }
 
 .mobile-app-img img {
-  margin: 50px auto;
+  margin: 20px auto;
   margin-left: 100px;
   width: 75%;
 }
@@ -232,7 +244,7 @@ nav {
 
 .talk-to-us-wrapper {
   margin: 50px auto;
-  width: 90%;
+  width: 80%;
   height: 100vh;
   text-align: center;
 }
@@ -241,6 +253,10 @@ nav {
   float: left;
   width: 50%;
   height: 100%;
+  padding-top: 90px;
+  border: #1F1F1F 2px solid;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.33);
 }
 
 .talk-to-us h1 {
@@ -297,12 +313,13 @@ nav {
 }
 
 .contact-us-img img {
-  margin: 40px auto;
-  width: 90%;
+  margin: 250px auto;
+  width: 80%;
 }
 
 .keep-in-touch .button {
   background-color:#57c27d;
+  margin-top: 30px;
   padding: 10px 15px;
   border: none;
   border-radius: 30px;
