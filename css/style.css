@@ -10,7 +10,7 @@ body {
   background-color: #ffffff;
 }
 
-.main {
+main {
   /* has to match navbar height */
   margin-top: 80px;
 }
