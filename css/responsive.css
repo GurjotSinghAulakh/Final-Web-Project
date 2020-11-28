@@ -1,8 +1,4 @@
 @media only screen and (max-width: 1024px) {
-  .logo {
-    margin-left: 20px;
-  }
-
   .main-txt h1 {
     width: 45%;
     top: 60%;
@@ -13,14 +9,13 @@
   }
 
   .iphone-app-img {
-    width: 40%;
-    top: 25%;
+    top: 35%;
     left: 65%;
     transform: translate(-10%, 0%);
   }
 
   .iphone-app-img img {
-    width: 65%;
+    width: 80%;
   }
 
   .wrapper {
@@ -60,8 +55,7 @@
   }
 
   .solution {
-    margin: 15px auto;
-    width: 60%;
+    margin: 50px auto;
     padding: 20px;
     height: auto;
   }
@@ -118,7 +112,7 @@
 
   .main-txt h1 {
     width: 45%;
-    top: 60%;
+    top: 50%;
     font-size: 22px;
     line-height: 40px;
     text-align: start;
@@ -137,8 +131,8 @@
   }
 
   .wrapper {
-    margin: 0px auto;
-    height: auto;
+    margin: 50px auto;
+    height: 80vh;
   }
 
   .challenge {
@@ -161,7 +155,7 @@
   }
 
   .globe-img img {
-    margin: 20px auto;
+    margin: 50px auto;
     width: 40%;
   }
 
@@ -169,6 +163,7 @@
     float: left;
     width: 100%;
     height: auto;
+    padding-top: 20px;
   }
 
   .solution h1 {
@@ -181,38 +176,31 @@
 
   .mobile-app-img {
     float: left;
-    width: 50%;
-    margin: 0 auto;
-    height: auto;
+    width: 100%;
+    height: fit-content;
     text-align: center;
+    margin: 0 auto;
   }
 
   .mobile-app-img img {
     margin: 20px auto;
-    width: 30%;
-  }
-
-  .talk-to-us-wrapper {
-    margin: 0px auto;
-    height: auto;
+    width: 40%;
   }
 
   .talk-to-us {
-    margin: 0 auto;
     width: 100%;
+    padding-top: 20px;
+    margin-bottom: 150px;
   }
 
   .talk-to-us h1 {
     font-size: 28px;
   }
 
-  .contact-us-media {
-    float: right;
-    width: 45%;
-  }
-
   .contact-us-img {
-    margin: 25px auto;
+    margin: 0px auto;
+    width: 100%;
+    height: fit-content;
   }
 
   .contact-us-img img {
@@ -221,9 +209,9 @@
   }
 
   .container {
-    width: 100%;
-    margin: 20px 20px;
-    height: auto;
+    width: 80%;
+    height: fit-content;
+    margin-bottom: 10px;
   }
 
   .s-media {
@@ -235,7 +223,7 @@
   .support-and-contact-info {
     float: left;
     width: 100%;
-    height: auto;
+    height: fit-content;
   }
 
   .support {
@@ -246,18 +234,15 @@
     padding-bottom: 10px;
   }
 
-  .contact-us {
-    height: fit-content;
-  }
-
   .contact-us h4 {
     padding-bottom: 10px;
   }
 
   footer {
-    /* bottom height has to correspond to .menu ul height */
+    /* bottom height has to correspond to .menu ul height */ 
     bottom: 70px;
   }
+  
 }
 
 @media only screen and (max-width: 550px) {
@@ -272,7 +257,7 @@
 
   .main-txt h1 {
     width: 45%;
-    top: 60%;
+    top: 50%;
     font-size: 20px;
     line-height: 30px;
     text-align: start;
@@ -280,7 +265,6 @@
   }
 
   .iphone-app-img {
-    width: 40%;
     top: 30%;
     left: 55%;
     transform: translate(-10%, 0%);
@@ -289,8 +273,8 @@
   .iphone-app-img img {
     width: 100%;
   }
+
   footer {
-    /* bottom height has to correspond to .menu ul height */
     bottom: 60px;
   }
 }
@@ -354,31 +338,13 @@
     font-size: 16px;
   }
 
-  .wrapper {
-    width: 100%;
-  }
-
   .container {
     width: 100%;
   }
 
-  #msg-box {
-    width: 50%;
-  }
-
-  .contact-us-img {
-    float: left;
-    width: 50%;
-  }
-
-  .talk-to-us-wrapper {
-    width: 100%;
-  }
-
   .talk-to-us {
-    margin: 0px auto;
-    float: left;
     width: 100%;
+    margin-bottom: 100px;
   }
 
   .talk-to-us h1 {
@@ -389,14 +355,6 @@
     font-size: 18px;
   }
 
-  .contact-us-media {
-    margin: 20px auto;
-    float: left;
-    width: 100%;
-    height: auto;
-    border: 2px solid black;
-  }
-
   .left-top h1 {
     font-size: 20px;
     font-weight: 400;
@@ -404,17 +362,22 @@
 
   .support {
     position: relative;
-    width: 40%;
+    width: 35%;
+  }
+
+  .contact-us {
+    position: relative;
+    width: 45%;
   }
 
   .support h4,
   .contact-us h4 {
     font-size: 16px;
+    width: 40%;
   }
 
   footer {
-    /* bottom height has to correspond to .menu ul height */
-    bottom: 60px;
+    bottom: 50px;
   }
 }
 
@@ -424,7 +387,6 @@
   }
   .main-bk {
     height: 65vh;
-    /* border: 1px solid black; */
     position: relative;
   }
 
@@ -457,8 +419,35 @@
   }
 }
 
-@media only screen and (max-width: 319px) {
+@media only screen and (max-width: 320px) {
   .menu ul {
     min-width: 319px;
+  }
+  
+  .support {
+    position: relative;
+    width: 75%;
+    height: fit-content;
+  }
+
+  .contact-us {
+    position: relative;
+    width: 75%;
+    height: fit-content;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+  #name,
+  #email {
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  #msg-box {
+    max-width: 200px;
+
   }
 }
