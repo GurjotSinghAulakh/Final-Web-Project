@@ -1,13 +1,4 @@
 @media only screen and (max-width: 1024px) {
-  nav {
-    height: 100px;
-  }
-
-  main {
-    /* has to match navbar height */
-    margin-top: 100px;
-  }
-
   .logo {
     margin-left: 20px;
   }
@@ -91,9 +82,12 @@
 
 @media only screen and (max-width: 800px) {
   nav {
-    height: 100px;
     position: relative;
-    text-align: center;
+  }
+
+  main {
+    /* since nav is now relative this has to be 0 */
+    margin-top: 0;
   }
 
   .menu ul {
@@ -107,6 +101,7 @@
     z-index: 2;
     width: 100%;
   }
+
   .menu ul li {
     float: left;
     width: 25%;
