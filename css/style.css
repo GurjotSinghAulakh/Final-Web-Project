@@ -436,11 +436,12 @@ footer {
   width: 37.5%;
 }
 
-.support h4 {
+.support h2 {
   margin: 40px 0px 0px 0px;
   height: 15%;
   color: black;
   letter-spacing: 1.5px;
+  font-size: 18px;
 }
 
 .support a {
@@ -459,11 +460,12 @@ footer {
   width: 37.5%;
 }
 
-.contact-us h4 {
+.contact-us h2 {
   margin: 40px 0px 0px 0px;
   height: 15%;
   color: black;
   letter-spacing: 1.5px;
+  font-size: 18px;
 }
 
 .contact-us a {
