@@ -208,7 +208,6 @@
 }
 
 .social-links a img:hover {
-  transition: 0.45s;
   opacity: 0.5;
 }
 
