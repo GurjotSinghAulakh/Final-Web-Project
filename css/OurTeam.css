@@ -147,7 +147,6 @@ nav {
 
 .story p{
 
-    font-family: "PT Sans";
     font-size: 12px;
     color: #002627;
     line-height: 24px;
@@ -173,7 +172,6 @@ nav {
 
 .tittel{
     padding: 40px 20px 20px 20px;
-    font-family: Arial;
     font-size: 22px;
     color: #111;
     line-height: 44px;
@@ -220,7 +218,6 @@ nav {
     margin-top: 70px;
     border-radius: 10px;
     background-color: #25A6F4;
-    font-family: "PT Sans";
 
 
 }
@@ -264,7 +261,6 @@ nav {
     justify-content: center;
     font-size:20px;
     width:100%;
-    font-family: "PT Sans";
     margin:10px;
 
 }
@@ -343,7 +339,6 @@ nav {
 
 .tekst p {
 
-    font-family: "PT Sans";
     color: black;
     margin: 20px 20px 20px 20px;
     line-height: 25px;
@@ -368,7 +363,6 @@ nav {
     height:100%;
     border-radius: 10px;
     background-color: purple;
-    font-family: "PT Sans";
 
 
 }
@@ -413,7 +407,6 @@ nav {
     justify-content: center;
     font-size: 20px;
     width:100%;
-    font-family: "PT Sans";
     margin:10px;
 
 }
@@ -493,7 +486,6 @@ nav {
 
 .tekst2 p {
 
-    font-family: "PT Sans";
     color: black;
     margin: 20px 20px 20px 20px;
     line-height: 25px;
@@ -520,7 +512,6 @@ nav {
     height:100%;
     border-radius: 10px;
     background-color: #CA091C;
-    font-family: "PT Sans";
 
 
 }
@@ -565,7 +556,6 @@ nav {
     justify-content: center;
     font-size: 20px;
     width:100%;
-    font-family: "PT Sans";
     margin:10px;
 
 }
@@ -608,7 +598,6 @@ nav {
     color: black;
     opacity: 0.7;
     font-size: 15px;
-    font-family: "PT Sans";
 
 }
 
@@ -647,7 +636,6 @@ nav {
 
 .tekst3 p {
 
-    font-family: "PT Sans";
     color: black;
     margin: 20px 20px 20px 20px;
     line-height: 25px;
@@ -673,7 +661,6 @@ nav {
     height:100%;
     border-radius: 10px;
     background-color: orange;
-    font-family: "PT Sans";
 
 
 }
@@ -718,7 +705,6 @@ nav {
     justify-content: center;
     font-size: 20px;
     width:100%;
-    font-family: "PT Sans";
     margin:10px;
 
 }
@@ -798,7 +784,6 @@ nav {
 
 .tekst4 p {
 
-    font-family: "PT Sans";
     color: black;
     margin: 20px 20px 20px 20px;
     line-height: 25px;
@@ -824,7 +809,6 @@ nav {
     height:100%;
     border-radius: 10px;
     background-color: green;
-    font-family: "PT Sans";
 
 
 }
@@ -869,7 +853,6 @@ nav {
     justify-content: center;
     font-size: 20px;
     width:100%;
-    font-family: "PT Sans";
     margin:10px;
 
 }
@@ -952,7 +935,6 @@ nav {
 
 .tekst5 p {
 
-    font-family: "PT Sans";
     color: black;
     margin: 20px 20px 20px 20px;
     line-height: 25px;
@@ -978,7 +960,6 @@ nav {
     height:100%;
     border-radius: 10px;
     background-color: gray;
-    font-family: "PT Sans";
 
 
 }
@@ -1023,7 +1004,6 @@ nav {
     justify-content: center;
     font-size: 20px;
     width:100%;
-    font-family: "PT Sans";
     margin:10px;
 
 }
@@ -1104,7 +1084,6 @@ nav {
 
 .tekst6 p {
 
-    font-family: "PT Sans";
     color: black;
     margin: 20px 20px 20px 20px;
     line-height: 25px;
@@ -1130,7 +1109,6 @@ nav {
     height:100%;
     border-radius: 10px;
     background-color: #2D2A39;
-    font-family: "PT Sans";
 
 
 }
@@ -1175,7 +1153,6 @@ nav {
     justify-content: center;
     font-size: 20px;
     width:100%;
-    font-family: "PT Sans";
     margin:10px;
 
 }
@@ -1255,7 +1232,6 @@ nav {
 
 .tekst7 p {
 
-    font-family: "PT Sans";
     color: black;
     margin: 20px 20px 20px 20px;
     line-height: 25px;
@@ -1451,7 +1427,6 @@ footer {
 
     .tittel{
         padding: 40px 20px 20px 20px;
-        font-family: "PT Sans";
         font-size: 26px;
         color: #111;
         line-height: 44px;
@@ -1553,7 +1528,6 @@ footer {
 
     .tittel{
         padding: 40px 20px 20px 20px;
-        font-family: "PT Sans";
         font-size: 30px;
         color: #111;
         line-height: 44px;
@@ -1562,7 +1536,6 @@ footer {
 
     .story p{
 
-        font-family: "PT Sans";
         font-size: 14px;
         color: #002627;
         line-height: 32px;
@@ -1666,7 +1639,6 @@ footer {
 
     .tittel{
         padding: 40px 20px 20px 20px;
-        font-family: "PT Sans";
         font-size: 32px;
         color: #111;
         line-height: 44px;
