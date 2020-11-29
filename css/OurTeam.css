@@ -1492,7 +1492,6 @@ footer {
     .person3{
 
         margin-top: 125px;
-        margin-left: 12px;
         width:45%;
         height:100%;
         border-radius: 10px;
@@ -1502,7 +1501,6 @@ footer {
 
     .person4{
 
-        margin: 125px 0px 0px 22px;
         width:45%;
         height:100%;
         border-radius: 10px;
@@ -1537,7 +1535,6 @@ footer {
     .person7{
 
         margin-top: 125px;
-        margin-left:10px;
         width:45%;
         height:100%;
         border-radius: 10px;
@@ -1593,7 +1590,6 @@ footer {
     .person1{
 
         margin-top: 125px;
-        margin-left:5px;
         width:30%;
         height:100%;
         border-radius: 10px;
@@ -1604,7 +1600,6 @@ footer {
     .person2{
 
         margin-top: 125px;
-        margin-left: 15px;
         width:30%;
         height:100%;
         border-radius: 10px;
@@ -1615,7 +1610,6 @@ footer {
     .person3{
 
         margin-top: 125px;
-        margin-right:5px;
         width:30%;
         height:100%;
         border-radius: 10px;
@@ -1625,7 +1619,7 @@ footer {
 
     .person4{
 
-        margin: 125px 0px 0px 9px;
+        margin-top: 125px;
         width:30%;
         height:100%;
         border-radius: 10px;
@@ -1636,7 +1630,6 @@ footer {
     .person5{
 
         margin-top: 125px;
-        margin-right:18px;
         width:30%;
         height:100%;
         border-radius: 10px;
@@ -1647,8 +1640,6 @@ footer {
     .person6{
 
         margin-top: 125px;
-        margin-right:6px;
-
         width:30%;
         height:100%;
         border-radius: 10px;
@@ -1706,7 +1697,6 @@ footer {
     .person2 {
 
         margin-top: 125px;
-        margin-left: 5px;
         width: 30%;
         height: 100%;
         border-radius: 10px;
@@ -1717,7 +1707,6 @@ footer {
     .person3 {
 
         margin-top: 125px;
-        margin-right: 5px;
 
         width: 30%;
         height: 100%;
@@ -1728,7 +1717,7 @@ footer {
 
     .person4 {
 
-        margin: 125px 0px 0px 14px;
+        margin-top: 125px;
         width: 30%;
         height: 100%;
         border-radius: 10px;
@@ -1739,7 +1728,6 @@ footer {
     .person5 {
 
         margin-top: 125px;
-        margin-right: 28px;
         width: 30%;
         height: 100%;
         border-radius: 10px;
@@ -1750,7 +1738,6 @@ footer {
     .person6 {
 
         margin-top: 125px;
-        margin-right: 12px;
         width: 30%;
         height: 100%;
         border-radius: 10px;
@@ -1761,7 +1748,6 @@ footer {
     .person7 {
 
         margin-top: 125px;
-        margin-right: 8.5px;
         width: 30%;
         height: 100%;
         border-radius: 10px;
