@@ -433,7 +433,7 @@ footer {
 .support-and-contact-info {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   float: left;
   width: 75%;
   height: 100%;
