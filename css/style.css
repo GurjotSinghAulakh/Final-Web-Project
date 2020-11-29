@@ -175,11 +175,13 @@ nav {
 .globe-img {
   float: right;
   height: fit-content;
+  width: 30%;
 }
 
 .globe-img img {
   margin: 50px auto;
-  width: 80%;
+  margin-left: 20px;
+  width: 100%;
 }
 
 .read-more-btn {
@@ -240,7 +242,7 @@ nav {
 
 .mobile-app-img img {
   margin: 20px auto;
-  margin-left: 100px;
+  margin-left: 50px;
   width: 75%;
 }
 
@@ -411,13 +413,21 @@ footer {
 }
 
 .left-center a {
-  position: relative;
-  font-size: 22px;
+  display: block;
+  font-size: 14px;
   padding: 5px 10px 0px 30px;
   line-height: 30px;
-  font-size: 22px;
+  font-size: 18px; 
   color: black;
+} 
+
+
+.left-center .icons-style {
+  text-align: start;
+  display: inline-block;
+  height: 20px;
 }
+
 
 .support-and-contact-info {
   display: flex;
