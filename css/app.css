@@ -111,6 +111,13 @@
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .app-wrapper {
+    margin-bottom: 100px;
+
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .proto-img {
     max-height: 300px;
