@@ -1,4 +1,4 @@
-/*----------------- Contact Oss---------------------*/
+/*----------------- Contact Us---------------------*/
 
 .banner-text {
   text-align: center;
@@ -59,16 +59,6 @@
   }
 }
 
-.story p {
-  font-size: 12px;
-  color: #002627;
-  line-height: 24px;
-}
-
-.Information {
-  width: 90%;
-}
-
 .text {
   display: flex;
   flex-wrap: wrap;
@@ -95,15 +85,14 @@
   margin-bottom: 50px;
 }
 
-.linje {
+.underline {
   text-decoration: none;
   width: 200px;
-  background-color: darkorange;
   border: 3px solid #808080;
   border-radius: 12px;
 }
 
-/*------------------------TEAM------------------------*/
+/*------------------------Our Team------------------------*/
 
 .flex {
   display: flex;
@@ -114,12 +103,12 @@
   margin-bottom: 150px;
 }
 
-.person1 {
-  width: 100%;
+.person {
+  width: 30%;
   height: 100%;
+  margin: 0px auto;
   margin-top: 70px;
-  border-radius: 10px;
-  background-color: #25a6f4;
+
 }
 
 .image {
@@ -131,6 +120,7 @@
   height: 33%;
   background-color: whitesmoke;
   opacity: 0.95;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .profile {
@@ -159,7 +149,7 @@
   margin: 10px;
 }
 
-.box_linje {
+.box-line {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -173,13 +163,12 @@
   text-decoration: none;
   float: bottom;
   width: 125px;
-  background-color: #25a6f4;
-  border: 1px solid #25a6f4;
   border-radius: 8px;
   height: 2px;
 }
 
-.box_student {
+
+.skill {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -189,926 +178,117 @@
   opacity: 0.95;
 }
 
-.title1 {
+.title {
   color: black;
   opacity: 0.7;
   font-size: 15px;
 }
 
-.Social {
-  display: flex;
-  flex-wrap: wrap;
+.social-links {
   justify-content: center;
+  text-align: center;
   width: 100%;
   height: 50px;
   background-color: whitesmoke;
   opacity: 0.95;
 }
 
-.Social a {
-  margin: 20px;
+.social-links a{
   color: black;
+  display: inline;
+  margin: 0px 15px 0px 15px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
 }
 
-.Social a:hover {
+.social-links img {
+  margin-top: 15px;
+  width: 20px;
+
+}
+
+.social-links a:hover {
   transition: 0.45s;
   opacity: 0.5;
 }
 
-.sum {
+.style-line {
   width: 100%;
   height: 10px;
   border-radius: 10px;
+}
+
+/*----------------------- Person1 -----------------------*/
+
+.one {
   background-color: #25a6f4;
+  border: 1px solid #25a6f4;
+  border-radius: 10px;
 }
 
 /*----------------------- Person2 -----------------------*/
 
-.person2 {
-  margin-top: 125px;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  background-color: purple;
-}
-
-.image2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  float: top;
-  width: 100%;
-  height: 33%;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.profile2 {
-  position: relative;
-  margin: 10px;
-  width: 130px;
-  height: 125px;
-}
-
-.name2 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 40px;
-  float: top;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.name2 h1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: 20px;
-  width: 100%;
-  margin: 10px;
-}
-
-.box_linje2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 10px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.line2 {
-  text-decoration: none;
-  width: 125px;
+.two {
   background-color: purple;
   border: 1px solid purple;
-  border-radius: 8px;
-  height: 2px;
-}
-
-.box_student2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 20px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.title2 {
-  color: black;
-  opacity: 0.7;
-  font-size: 15px;
-}
-
-.Social2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 50px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.Social2 a {
-  margin: 20px;
-  color: black;
-}
-
-.Social2 a:hover {
-  transition: 0.45s;
-  opacity: 0.5;
-}
-
-.sum2 {
-  width: 100%;
-  height: 10px;
   border-radius: 10px;
-  background-color: purple;
 }
 
 /*----------------------- Person3 -----------------------*/
 
-.person3 {
-  margin-top: 125px;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  background-color: #ca091c;
-}
-
-.image3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  float: top;
-  width: 100%;
-  height: 33%;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.profile3 {
-  position: relative;
-  margin: 10px;
-  width: 130px;
-  height: 125px;
-}
-
-.name3 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 40px;
-  float: top;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.name3 h1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: 20px;
-  width: 100%;
-  margin: 10px;
-}
-
-.box_linje3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 10px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.line3 {
-  text-decoration: none;
-  width: 125px;
+.three {
   background-color: #ca091c;
   border: 1px solid #ca091c;
-  border-radius: 8px;
-  height: 2px;
-}
-
-.box_student3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 20px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.title3 {
-  color: black;
-  opacity: 0.7;
-  font-size: 15px;
-}
-
-.Social3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 50px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.Social3 a {
-  margin: 20px;
-  color: black;
-}
-
-.Social3 a:hover {
-  transition: 0.45s;
-  opacity: 0.5;
-}
-
-.sum3 {
-  width: 100%;
-  height: 10px;
   border-radius: 10px;
-  background-color: #ca091c;
 }
 
 /*----------------------- Person4 -----------------------*/
 
-.person4 {
-  margin-top: 125px;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  background-color: orange;
-}
-
-.image4 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  float: top;
-  width: 100%;
-  height: 33%;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.profile4 {
-  position: relative;
-  margin: 10px;
-  width: 130px;
-  height: 125px;
-}
-
-.name4 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 40px;
-  float: top;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.name4 h1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: 20px;
-  width: 100%;
-  margin: 10px;
-}
-
-.box_linje4 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 10px;
-  opacity: 0.95;
-  background-color: whitesmoke;
-}
-
-.line4 {
-  text-decoration: none;
-  width: 125px;
+.four {
   background-color: orange;
   border: 1px solid orange;
-  border-radius: 8px;
-  height: 2px;
-}
-
-.box_student4 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 20px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.title4 {
-  color: black;
-  opacity: 0.7;
-  font-size: 15px;
-}
-
-.Social4 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 50px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.Social4 a {
-  margin: 20px;
-  color:black;
-}
-
-.Social4 a:hover {
-  transition: 0.45s;
-  opacity: 0.5;
-}
-
-.sum4 {
-  width: 100%;
-  height: 10px;
   border-radius: 10px;
-  background-color: orange;
 }
 
 /*----------------------- Person5 -----------------------*/
 
-.person5 {
-  margin-top: 125px;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  background-color: green;
-}
-
-.image5 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  float: top;
-  width: 100%;
-  height: 33%;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.profile5 {
-  position: relative;
-  margin: 10px;
-  width: 130px;
-  height: 125px;
-}
-
-.name5 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 40px;
-  float: top;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.name5 h1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: 20px;
-  width: 100%;
-  margin: 10px;
-}
-
-.box_linje5 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 10px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.line5 {
-  text-decoration: none;
-  width: 125px;
+.five {
   background-color: green;
   border: 1px solid green;
-  border-radius: 8px;
-  height: 2px;
-}
-
-.box_student5 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 20px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.title5 {
-  color: black;
-  opacity: 0.7;
-  font-size: 15px;
-}
-
-.Social5 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 50px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.Social5 a:hover {
-  transition: 0.45s;
-  opacity: 0.5;
-}
-
-.Social5 a {
-  margin: 20px;
-  color:black;
-}
-
-.sum5 {
-  width: 100%;
-  height: 10px;
   border-radius: 10px;
-  background-color: green;
 }
 
 /*----------------------- Person6 -----------------------*/
 
-.person6 {
-  margin-top: 125px;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  background-color: gray;
-}
-
-.image6 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  float: top;
-  width: 100%;
-  height: 33%;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.profile6 {
-  position: relative;
-  margin: 10px;
-  width: 130px;
-  height: 125px;
-}
-
-.name6 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 40px;
-  float: top;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.name6 h1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: 20px;
-  width: 100%;
-  margin: 10px;
-}
-
-.box_linje6 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 10px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.line6 {
-  text-decoration: none;
-  width: 125px;
+.six {
   background-color: gray;
   border: 1px solid gray;
-  border-radius: 8px;
-  height: 2px;
-}
-
-.box_student6 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 20px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.title6 {
-  color: black;
-  opacity: 0.7;
-  font-size: 15px;
-}
-
-.Social6 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 50px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.Social6 a {
-  margin: 20px;
-  color:black;
-}
-
-.Social6 a:hover {
-  transition: 0.45s;
-  opacity: 0.5;
-}
-
-.sum6 {
-  width: 100%;
-  height: 10px;
   border-radius: 10px;
-  background-color: gray;
 }
 
 /*----------------------- Person7 -----------------------*/
 
-.person7 {
-  margin-top: 125px;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  background-color: #2d2a39;
-}
-
-.image7 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  float: top;
-  width: 100%;
-  height: 33%;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.profile7 {
-  position: relative;
-  margin: 10px;
-  width: 130px;
-  height: 125px;
-}
-
-.name7 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 40px;
-  float: top;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.name7 h1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: 20px;
-  width: 100%;
-  margin: 10px;
-}
-
-.box_linje7 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 10px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.line7 {
-  text-decoration: none;
-  width: 125px;
+.seven {
   background-color: #2d2a39;
   border: 1px solid #2d2a39;
-  border-radius: 8px;
-  height: 2px;
-}
-
-.box_student7 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 20px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.title7 {
-  color: black;
-  opacity: 0.7;
-  font-size: 15px;
-}
-
-.Social7 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 50px;
-  background-color: whitesmoke;
-  opacity: 0.95;
-}
-
-.Social7 a {
-  margin: 20px;
-  color:black;
-}
-
-.Social7 a:hover {
-  transition: 0.45s;
-  opacity: 0.5;
-}
-
-.sum7 {
-  width: 100%;
-  height: 10px;
   border-radius: 10px;
-  background-color: #2d2a39;
 }
 
-/*------   Responsiv part   -------*/
+/*------------------- Responsiv part ----------------------*/
 
-@media (min-width: 550px) {
-  .tittel {
-    padding: 40px 20px 20px 20px;
-    font-size: 26px;
-    color: #111;
-    line-height: 44px;
-  }
-
-  .flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-    height: 100%;
-  }
-
-  .person1 {
-    margin-top: 125px;
-    width: 45%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: #25a6f4;
-  }
-
-  .person2 {
-    margin-top: 125px;
-    width: 45%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: purple;
-  }
-
-  .person3 {
-    margin-top: 125px;
-    width: 45%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: #ca091c;
-  }
-
-  .person4 {
-    width: 45%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: orange;
-  }
-
-  .person5 {
-    margin-top: 125px;
-    width: 45%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: green;
-  }
-
-  .person6 {
-    margin-top: 125px;
-    width: 45%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: gray;
-  }
-
-  .person7 {
-    margin-top: 125px;
-    width: 45%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: #2d2a39;
+@media only screen and (max-width: 800px) {
+  .person {
+    width: 40%;
   }
 }
 
-@media (min-width: 1000px) {
-  .tittel {
-    padding: 40px 20px 20px 20px;
-    font-size: 30px;
-    color: #111;
-    line-height: 44px;
-  }
-
-  .story p {
-    font-size: 14px;
-    color: #002627;
-    line-height: 32px;
-  }
-
-  .Information {
-    width: 60%;
-  }
-
-  .flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-  }
-
-  .person1 {
-    margin-top: 125px;
-    width: 30%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: #25a6f4;
-  }
-
-  .person2 {
-    margin-top: 125px;
-    width: 30%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: purple;
-  }
-
-  .person3 {
-    margin-top: 125px;
-    width: 30%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: #ca091c;
-  }
-
-  .person4 {
-    margin-top: 125px;
-    width: 30%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: orange;
-  }
-
-  .person5 {
-    margin-top: 125px;
-    width: 30%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: green;
-  }
-
-  .person6 {
-    margin-top: 125px;
-    width: 30%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: gray;
-  }
-
-  .person7 {
-    margin-top: 125px;
-    margin-left: 3px;
-    width: 30%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: #2d2a39;
+@media only screen and (max-width: 600px) {
+  .person {
+    width: 80%;
   }
 }
 
-@media (min-width: 1200px) {
-  .tittel {
-    padding: 40px 20px 20px 20px;
-    font-size: 32px;
-    color: #111;
-    line-height: 44px;
-  }
 
-  .flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-  }
-
-  .person1 {
-    margin-top: 125px;
-    width: 30%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: #25a6f4;
-  }
-
-  .person2 {
-    margin-top: 125px;
-    width: 30%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: purple;
-  }
-
-  .person3 {
-    margin-top: 125px;
-
-    width: 30%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: #ca091c;
-  }
-
-  .person4 {
-    margin-top: 125px;
-    width: 30%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: orange;
-  }
-
-  .person5 {
-    margin-top: 125px;
-    width: 30%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: green;
-  }
-
-  .person6 {
-    margin-top: 125px;
-    width: 30%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: gray;
-  }
-
-  .person7 {
-    margin-top: 125px;
-    width: 30%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: #2d2a39;
-  }
-}
 
 /*  image sources:
 Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
