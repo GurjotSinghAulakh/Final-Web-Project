@@ -48,7 +48,7 @@
 
   .mobile-app-img img {
     margin: 130px auto;
-    width: 75%;
+    width: 100%;
   }
 
   .solution {
@@ -177,12 +177,12 @@
     width: 100%;
     height: fit-content;
     text-align: center;
-    margin: 50px auto;
   }
 
   .mobile-app-img img {
-    margin: 20px auto;
-    width: 30%;
+    margin: 40px auto;
+    margin-bottom: 90px;
+    width: 80%;
   }
 
   .talk-to-us {
@@ -271,6 +271,12 @@
 
   .iphone-app-img img {
     width: 100%;
+  }
+
+  .mobile-app-img img {
+    margin: 20px auto;
+    margin-bottom: 50px;
+    width: 80%;
   }
 
   footer {
