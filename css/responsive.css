@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1012px) {
   .main-txt h1 {
     width: 45%;
     top: 60%;
@@ -36,22 +36,19 @@
   }
 
   .globe-img {
-    height: auto;
+    width: 30%;
+    margin-left: 50px;
+    height: fit-content;
   }
 
   .globe-img img {
     margin: 100px auto;
-  }
-
-  .mobile-app-img {
-    float: left;
-    width: 30%;
-    height: 100%;
+    width: 100%;
   }
 
   .mobile-app-img img {
-    margin: 160px auto;
-    width: 60%;
+    margin: 130px auto;
+    width: 75%;
   }
 
   .solution {
@@ -152,11 +149,12 @@
     float: left;
     width: 100%;
     text-align: center;
+    margin-left: 0px;
   }
 
   .globe-img img {
     margin: 50px auto;
-    width: 40%;
+    width: 55%;
   }
 
   .solution {
@@ -179,12 +177,12 @@
     width: 100%;
     height: fit-content;
     text-align: center;
-    margin: 0 auto;
+    margin: 50px auto;
   }
 
   .mobile-app-img img {
     margin: 20px auto;
-    width: 40%;
+    width: 30%;
   }
 
   .talk-to-us {
@@ -198,6 +196,7 @@
   }
 
   .contact-us-img {
+    display: none;
     margin: 0px auto;
     width: 100%;
     height: fit-content;

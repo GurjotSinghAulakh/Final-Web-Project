@@ -175,11 +175,13 @@ nav {
 .globe-img {
   float: right;
   height: fit-content;
+  width: 30%;
 }
 
 .globe-img img {
   margin: 50px auto;
-  width: 80%;
+  margin-left: 20px;
+  width: 100%;
 }
 
 .read-more-btn {
@@ -191,7 +193,7 @@ nav {
   color: white;
   border: none;
   padding: 10px 15px;
-  border-radius: 30px;
+  border-radius: 10px;
   border: white 2px solid;
   font-size: 20px;
   font-weight: 300;
@@ -240,7 +242,7 @@ nav {
 
 .mobile-app-img img {
   margin: 20px auto;
-  margin-left: 100px;
+  margin-left: 50px;
   width: 75%;
 }
 
@@ -328,7 +330,7 @@ nav {
   margin-top: 30px;
   padding: 10px 15px;
   border: none;
-  border-radius: 30px;
+  border-radius: 10px;
   border: white 2px solid;
   font-size: 20px;
   font-weight: 300;
@@ -337,11 +339,33 @@ nav {
 }
 
 .keep-in-touch .button:hover {
+  cursor: pointer;
   background-color: white;
-  border: #0a5b00 2px solid;
+  border: #0a5b00 3px solid;
   color: #0a5b00;
 }
 
+/*------------ button ---------------- */
+
+.button-primary {
+  background-color: #8047cc;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-weight: 700;
+  transition-property: background-color, color;
+  transition-timing-function: ease;
+  transition-delay: 0;
+}
+
+.button-primary:hover {
+  background-color: #ffffff;
+  color: #8047cc;
+  border: 4px solid #8047cc;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+}
 
 /*----------------------- Footer -----------------------*/
 
@@ -389,13 +413,21 @@ footer {
 }
 
 .left-center a {
-  position: relative;
-  font-size: 22px;
+  display: block;
+  font-size: 14px;
   padding: 5px 10px 0px 30px;
   line-height: 30px;
-  font-size: 22px;
+  font-size: 18px; 
   color: black;
+} 
+
+
+.left-center .icons-style {
+  text-align: start;
+  display: inline-block;
+  height: 20px;
 }
+
 
 .support-and-contact-info {
   display: flex;
