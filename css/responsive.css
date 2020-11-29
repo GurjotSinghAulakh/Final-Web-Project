@@ -410,9 +410,26 @@
     left: 55%;
     transform: translate(-10%, 0%);
   }
+
   footer {
     /* bottom height has to correspond to .menu ul height */
     bottom: 50px;
+  }
+
+  .support {
+    position: relative;
+    width: 75%;
+    height: auto;
+  }
+
+  .contact-us {
+    position: relative;
+    width: 75%;
+    height: auto;
+  }
+
+  .contact-us h2 {
+    height: 20%;
   }
 }
 
@@ -428,19 +445,6 @@
   .menu ul {
     min-width: 319px;
   }
-  
-  .support {
-    position: relative;
-    width: 75%;
-    height: fit-content;
-  }
-
-  .contact-us {
-    position: relative;
-    width: 75%;
-    height: fit-content;
-  }
-
 }
 
 @media only screen and (max-width: 375px) {
