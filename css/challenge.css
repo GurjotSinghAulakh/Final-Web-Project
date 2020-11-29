@@ -17,7 +17,7 @@
   font-size: 28px;
   font-weight: 600;
   letter-spacing: 1px;
-  line-height: 30px;
+  line-height: 40px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -124,6 +124,7 @@
   .content-image {
     width: 100%;
     order: 1;
+    min-height: 200px;
   }
 
   .content-col-s {
@@ -154,5 +155,19 @@
 
   .content-text h3 {
     margin: 6px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .challenge-page-banner {
+    height: 70vh;
+
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .challenge-page-banner {
+    height: 65vh;
+
   }
 }
