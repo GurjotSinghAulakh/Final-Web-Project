@@ -1,9 +1,9 @@
 .sources-wrapper {
-  min-height: 100vh;
-  text-align: center;
+  height: auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 150px;
+  margin-bottom: 0px;
+  width: 100%;
 }
 
 .sources-wrapper h1 {
@@ -12,13 +12,13 @@
   line-height: 50px;
 }
 
-.sources-wrapper h2 {
-  padding: 10px;
-  font-size: 26px;
+.sources-section h2 {
+  padding: 30px 0px 10px 0px;
+  font-size: 24px;
 }
 
 .sources-wrapper li {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
 }
 
@@ -28,6 +28,11 @@
   margin-right: auto;
 }
 
+.sources p {
+  font-weight: bolder;
+  max-width: 350px;
+}
+
 .sources-section {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -35,6 +40,36 @@
 
 .sources-wrapper a:hover {
   text-decoration: underline;
+}
+
+.border {
+  margin-bottom: 30px;
+}
+
+.underline {
+  text-decoration: none;
+  border: 3px solid black;
+  border-radius: 12px;
+}
+
+.one {
+  width: 200px;
+}
+
+.two {
+  width: 100px;
+}
+
+.three {
+  width: 100px;
+}
+
+.four {
+  width: 130px;
+}
+
+.five {
+  width: 160px;
 }
 
 @media only screen and (max-width: 991px) {
