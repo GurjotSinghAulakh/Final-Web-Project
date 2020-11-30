@@ -1,0 +1,26 @@
+.sources-wrapper {
+  height: 100vh;
+  text-align: center;
+}
+
+.sources-wrapper h1 {
+  padding-top: 10px;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.sources-wrapper h2 {
+  padding: 10px;
+  font-size: 26px;
+}
+
+.sources-wrapper li {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.sources {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
