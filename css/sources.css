@@ -3,6 +3,7 @@
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 100px;
+  margin-top: 60px;
   width: 100%;
 }
 
@@ -18,7 +19,7 @@
 }
 
 .sources-wrapper li {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
 }
 
@@ -31,6 +32,7 @@
 .sources p {
   font-weight: bolder;
   max-width: 350px;
+  font-size: 18px;
 }
 
 .sources-section {
@@ -50,6 +52,7 @@
   text-decoration: none;
   border: 3px solid black;
   border-radius: 12px;
+  text-align: left;
 }
 
 .one {
@@ -83,21 +86,28 @@
   }
 
   .sources-wrapper li {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
+
+@media only screen and (max-width: 854px) {
+  .sources-wrapper {
+    margin-top: 0px;
+
+  }
+}
+
 
 @media only screen and (max-width: 479px) {
   .sources-wrapper h1 {
     font-size: 26px;
-    line-height: 26px;
   }
 
   .sources-wrapper h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .sources-wrapper li {
-    font-size: 14px;
+    font-size: 20px;
   }
 }

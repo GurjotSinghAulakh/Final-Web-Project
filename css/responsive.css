@@ -440,6 +440,7 @@
 @media only screen and (max-width: 400px) {
   .menu ul {
     min-height: 50px;
+    letter-spacing: 0.5px;
   }
 
   .main-bk {
