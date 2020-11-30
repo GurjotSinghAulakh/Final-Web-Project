@@ -238,7 +238,7 @@
   }
 
   footer {
-    /* bottom height has to correspond to .menu ul height */ 
+    /* bottom height has to correspond to .menu ul height */
     bottom: 70px;
   }
 
@@ -249,8 +249,12 @@
 
   .left-top h1 {
     text-align: center;
+    margin-left: 0;
   }
-  
+
+  .left-center a {
+    padding-left: 0;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -370,8 +374,12 @@
   }
 
   .left-top h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
+  }
+
+  .left-center a {
+    font-size: 16px;
   }
 
   .support {
@@ -457,15 +465,13 @@
 }
 
 @media only screen and (max-width: 375px) {
-
   #name,
   #email {
     width: 80%;
     max-width: 500px;
   }
-  
+
   #msg-box {
     max-width: 200px;
-
   }
 }

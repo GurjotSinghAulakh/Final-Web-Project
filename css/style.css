@@ -391,6 +391,10 @@ footer {
   color: white;
 }
 
+.container a:hover {
+  text-decoration: underline;
+}
+
 .s-media {
   float: left;
   width: 25%;
@@ -401,6 +405,10 @@ footer {
 .left-top {
   width: 100%;
   height: auto;
+}
+
+.left-top a:hover {
+  text-decoration: #ffffff underline;
 }
 
 .left-top h1 {
@@ -423,11 +431,9 @@ footer {
   text-align: start;
 }
 
-.left-center a:hover{
-
+.left-center a:hover {
   transition: 0.4s;
   opacity: 0.55;
-
 }
 
 .left-center .icons-style {
