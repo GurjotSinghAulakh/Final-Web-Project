@@ -30,11 +30,12 @@
   min-height: 140px;
   display: flex;
   align-items: center;
-  border-left: 2px solid;
+  border-left: 5px solid;
 }
 
 .question {
   border-color: #5e7d66;
+  background-color: #f5f5f5;
   margin-bottom: 5px;
 }
 
@@ -93,6 +94,14 @@
 }
 
 @media screen and (max-width: 660px) {
+  .faq-block {
+    border-left: 2px solid;
+  }
+
+  .question {
+    border-color: #5e7d66;
+  }
+
   .faq-content h1 {
     font-size: 24px;
     padding-left: 6px;
@@ -102,10 +111,14 @@
   .faq-content h2 {
     font-size: 20px;
     line-height: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
 
   .faq-content p {
     font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
 }
 
