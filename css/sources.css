@@ -1,5 +1,5 @@
 .sources-wrapper {
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
@@ -49,12 +49,6 @@
 
   .sources-wrapper li {
     font-size: 18px;
-  }
-}
-
-@media only screen and (max-width: 550px) {
-  .sources-wrapper {
-    margin-bottom: 300px;
   }
 }
 
