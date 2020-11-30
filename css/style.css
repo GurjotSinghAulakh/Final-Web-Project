@@ -423,6 +423,13 @@ footer {
   text-align: start;
 }
 
+.left-center a:hover{
+
+  transition: 0.4s;
+  opacity: 0.55;
+
+}
+
 .left-center .icons-style {
   text-align: center;
   display: inline-block;
