@@ -24,7 +24,7 @@
   max-width: 1140px;
   font-size: 22px;
   color: #002627;
-  line-height: 30px;
+  line-height: 35px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -39,7 +39,7 @@
   }
 
   .banner-text p {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -51,11 +51,11 @@
 
   .banner-text h2 {
     padding: 14px;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .banner-text p {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
