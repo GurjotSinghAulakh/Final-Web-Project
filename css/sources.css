@@ -87,12 +87,6 @@
   }
 }
 
-@media only screen and (max-width: 550px) {
-  .sources-wrapper {
-    margin-bottom: 300px;
-  }
-}
-
 @media only screen and (max-width: 479px) {
   .sources-wrapper h1 {
     font-size: 26px;

@@ -1,4 +1,12 @@
 @media only screen and (max-width: 1012px) {
+  .menu a {
+    padding: 30px 20px;
+  }
+
+  #last-menu-item a {
+    padding-right: 20px;
+  }
+
   .main-txt h1 {
     width: 45%;
     top: 60%;
@@ -71,7 +79,7 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   nav {
     position: relative;
   }
@@ -98,9 +106,17 @@
     width: 25%;
     text-align: center;
     box-sizing: border-box;
-    line-height: 70px;
     margin: 0 auto;
     padding: 0;
+  }
+
+  .menu ul a {
+    height: 70px;
+    padding: 27px 0;
+  }
+
+  #last-menu-item a {
+    padding-right: 0;
   }
 
   .main-bk {
@@ -238,7 +254,7 @@
   }
 
   footer {
-    /* bottom height has to correspond to .menu ul height */ 
+    /* bottom height has to correspond to .menu ul height */
     bottom: 70px;
   }
 
@@ -249,8 +265,12 @@
 
   .left-top h1 {
     text-align: center;
+    margin-left: 0;
   }
-  
+
+  .left-center a {
+    padding-left: 0;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -258,9 +278,10 @@
     height: 60px;
   }
 
-  .menu ul li {
-    line-height: 60px;
+  .menu ul a {
     font-size: 15px;
+    height: 60px;
+    padding: 22px 0;
   }
 
   .main-txt h1 {
@@ -298,8 +319,9 @@
     height: 50px;
   }
 
-  .menu ul li {
-    line-height: 50px;
+  .menu ul a {
+    height: 50px;
+    padding: 17px 0;
     font-size: 13px;
     letter-spacing: normal;
   }
@@ -370,8 +392,12 @@
   }
 
   .left-top h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
+  }
+
+  .left-center a {
+    font-size: 16px;
   }
 
   .support {
@@ -399,6 +425,7 @@
   .menu ul {
     min-height: 50px;
   }
+
   .main-bk {
     height: 65vh;
     position: relative;
@@ -457,15 +484,13 @@
 }
 
 @media only screen and (max-width: 375px) {
-
   #name,
   #email {
     width: 80%;
     max-width: 500px;
   }
-  
+
   #msg-box {
     max-width: 200px;
-
   }
 }
