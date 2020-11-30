@@ -406,10 +406,11 @@ footer {
 .left-top h1 {
   position: relative;
   color: white;
-  margin: 30px 0px 30px 0px;
+  margin: 30px 0px 30px 30px;
   cursor: pointer;
   font-weight: 400;
   letter-spacing: 0.05em;
+  text-align: start;
 }
 
 .left-center a {

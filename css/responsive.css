@@ -246,6 +246,10 @@
     display: block;
     text-align: center;
   }
+
+  .left-top h1 {
+    text-align: center;
+  }
   
 }
 
