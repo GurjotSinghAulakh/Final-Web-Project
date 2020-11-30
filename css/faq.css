@@ -22,6 +22,10 @@
   border-bottom: 1px solid #dadada;
 }
 
+.faq-content a:hover {
+  text-decoration: underline;
+}
+
 #launch {
   border-bottom: none;
 }
