@@ -7,7 +7,25 @@
 }
 
 #proto-vid {
-  max-width: 320px;
+  width: 854px;
+  height: 480px;
+}
+
+@media only screen and (max-width: 864px) {
+  #proto-vid {
+    width: 640px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #proto-vid {
+    width: 426px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  #proto-vid {
+    height: 380px;
+    width: 100%;
+  }
 }
 
 .app-wrapper {
@@ -30,10 +48,6 @@
 
 #rewards {
   border-bottom: none;
-}
-
-#proto-vid {
-  border-radius: 8px;
 }
 
 .feature-row {
@@ -116,7 +130,6 @@
 @media only screen and (max-width: 800px) {
   .app-wrapper {
     margin-bottom: 100px;
-
   }
 }
 
