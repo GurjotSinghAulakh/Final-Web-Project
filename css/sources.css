@@ -1,10 +1,13 @@
 .sources-wrapper {
   height: 100vh;
   text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 150px;
 }
 
 .sources-wrapper h1 {
-  padding-top: 10px;
+  padding-top: 50px;
   font-size: 40px;
   line-height: 50px;
 }
@@ -23,4 +26,49 @@
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.sources-section {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sources-wrapper a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 991px) {
+  .sources-wrapper h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .sources-wrapper h2 {
+    font-size: 22px;
+  }
+
+  .sources-wrapper li {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .sources-wrapper {
+    margin-bottom: 300px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .sources-wrapper h1 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+
+  .sources-wrapper h2 {
+    font-size: 18px;
+  }
+
+  .sources-wrapper li {
+    font-size: 14px;
+  }
 }
