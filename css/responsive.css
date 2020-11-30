@@ -1,14 +1,18 @@
 @media only screen and (min-width: 1440px) {
-  .wrapper {
-    height: 70vh;
-  }
-
   .mobile-app-img img {
     margin: 20px auto;
     margin-left: 40px;
     width: 80%;
   }
 }
+
+
+@media only screen and (max-width: 2200px) {
+  .wrapper {
+    height: 75vh;
+  }
+}
+
 
 @media only screen and (max-width: 1012px) {
   .menu a {
@@ -39,7 +43,7 @@
   }
 
   .wrapper {
-    height: auto;
+    height: 70px;
   }
 
   .challenge {
