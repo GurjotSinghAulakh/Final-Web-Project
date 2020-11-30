@@ -400,14 +400,13 @@ footer {
 
 .left-top {
   width: 100%;
-  height: fit-content;
+  height: auto;
 }
 
 .left-top h1 {
   position: relative;
   color: white;
-  margin: 30px;
-  margin-left: 50px;
+  margin: 30px 0px 30px 0px;
   cursor: pointer;
   font-weight: 400;
   letter-spacing: 0.05em;
@@ -420,10 +419,11 @@ footer {
   line-height: 30px;
   font-size: 18px;
   color: black;
+  text-align: start;
 }
 
 .left-center .icons-style {
-  text-align: start;
+  text-align: center;
   display: inline-block;
   height: 20px;
 }

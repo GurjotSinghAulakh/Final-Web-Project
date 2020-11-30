@@ -241,6 +241,11 @@
     /* bottom height has to correspond to .menu ul height */ 
     bottom: 70px;
   }
+
+  .left-center a {
+    display: block;
+    text-align: center;
+  }
   
 }
 
