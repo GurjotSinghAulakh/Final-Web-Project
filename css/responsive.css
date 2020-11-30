@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1440px) {
+/* @media only screen and (min-width: 1440px) {
   .mobile-app-img img {
     margin: 20px auto;
     margin-left: 40px;
@@ -11,10 +11,34 @@
   .wrapper {
     height: 75vh;
   }
+} */
+
+@media only screen and (max-width: 1432px) {
+  .wrapper {
+    height: 85vh;
+  } 
+
+  .mobile-app-img img {
+    margin: 10px auto;
+    width: 70%;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 1240px) {
+  .wrapper {
+    height: 80vh;
+  }
+
+  .mobile-app-img img {
+    margin: 20px auto;
+    width: 80%;
+    margin-bottom: 0px;
+    margin-left: 50px;
 }
 
 
-@media only screen and (max-width: 1012px) {
+@media only screen and (max-width: 1048px) {
   .menu a {
     padding: 30px 20px;
   }
@@ -43,7 +67,7 @@
   }
 
   .wrapper {
-    height: 70px;
+    height: 70vh;
   }
 
   .challenge {
@@ -59,20 +83,10 @@
     font-size: 18px;
   }
 
-  .globe-img {
-    width: 30%;
-    margin-left: 50px;
-    height: fit-content;
-  }
-
-  .globe-img img {
-    margin: 100px auto;
-    width: 100%;
-  }
-
   .mobile-app-img img {
-    margin: 80px auto;
+    margin: 50px auto;
     width: 100%;
+    margin-bottom: 0px;
   }
 
   .solution {
@@ -160,7 +174,7 @@
   }
 
   .wrapper {
-    margin: 50px auto;
+    margin: 50px 50px;
     height: 80vh;
   }
 
