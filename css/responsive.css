@@ -1,4 +1,4 @@
- @media only screen and (min-width: 1440px) {
+/* @media only screen and (min-width: 1440px) {
   .mobile-app-img img {
     margin: 20px auto;
     margin-left: 40px;
@@ -11,8 +11,9 @@
   .wrapper {
     height: 75vh;
   }
-} 
+} */
 
+/*
 @media only screen and (max-width: 1432px) {
   .wrapper {
     height: 85vh;
@@ -36,7 +37,7 @@
     margin-bottom: 0px;
     margin-left: 50px;
 }
-
+*/
 
 @media only screen and (max-width: 1048px) {
   .menu a {
