@@ -147,39 +147,3 @@ html {
   font-size: var(--font-base-size);
   line-height: var(--font-base-line-height);
 }
-/*
-body {
-  -webkit-font-smoothing: antialiased;
-  background: var(--color-white);
-  color: var(--color-black);
-
-  @media (--media-max-small) {
-    margin: 0 20px;
-  }
-  @media (--media-min-small) {
-    margin: 0 40px;
-  }
-  @media (--media-min-large) {
-    margin: 0 200px;
-  }
-}
-
-html,
-body,
-body > div,
-body > div > div {
-  height: 100%;
-}
-
-h1 {
-  font-family: 'InterBold';
-  font-size: 28px;
-  line-height: normal;
-
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
-  font-synthesis: none;
-}
-*/
