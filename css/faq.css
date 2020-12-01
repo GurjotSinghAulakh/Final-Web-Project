@@ -23,7 +23,8 @@
   border-bottom: 1px solid #dadada;
 }
 
-.faq-content a:hover {
+.faq-content a:hover,
+.faq-content a:focus {
   text-decoration: underline;
 }
 

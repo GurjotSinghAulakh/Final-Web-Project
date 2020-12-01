@@ -111,6 +111,11 @@
   text-align: center;
 }
 
+.person a:hover,
+.person a:focus {
+  border-bottom: 2px solid;
+}
+
 .image {
   width: 100%;
   background-color: whitesmoke;
@@ -123,7 +128,6 @@
   margin: 10px;
   width: 130px;
   height: 125px;
-  
 }
 
 .name {
@@ -163,7 +167,6 @@
   height: 2px;
 }
 
-
 .skill {
   display: flex;
   flex-wrap: wrap;
@@ -189,7 +192,7 @@
   opacity: 0.95;
 }
 
-.social-links a{
+.social-links a {
   color: black;
   display: inline;
   margin: 0px 15px 0px 15px;
