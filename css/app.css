@@ -36,7 +36,8 @@
 }
 
 .feature-wrapper {
-  margin: 60px 15px;
+  max-width: 1140px;
+  margin: 60px auto;
   padding-bottom: 60px;
   border-bottom: 1px solid #cac5a4;
   /* max-width: 1080px;
@@ -44,6 +45,11 @@
   flex-direction: column; */
   align-items: center;
   text-align: center;
+}
+
+.feature-wrapper a:hover,
+.feature-wrapper a:focus {
+  text-decoration: underline;
 }
 
 #rewards {
