@@ -40,7 +40,8 @@
   margin-bottom: 15px;
 }
 
-.sources-wrapper a:hover {
+.sources-wrapper a:hover,
+.sources-wrapper a:focus {
   text-decoration: underline;
 }
 
@@ -93,10 +94,8 @@
 @media only screen and (max-width: 854px) {
   .sources-wrapper {
     margin-top: 0px;
-
   }
 }
-
 
 @media only screen and (max-width: 479px) {
   .sources-wrapper h1 {
