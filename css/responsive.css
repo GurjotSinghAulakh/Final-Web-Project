@@ -25,9 +25,11 @@
 
 
 @media only screen and (max-width: 1048px) {
+  /*
   .menu a {
     padding: 30px 20px;
   }
+  */
 
   #last-menu-item a {
     padding-right: 20px;
