@@ -1,14 +1,14 @@
-
 @media only screen and (max-width: 1432px) {
   .wrapper {
     height: 85vh;
-  } 
+  }
 
   .mobile-app-img img {
     margin: 10px auto;
     width: 70%;
     margin-bottom: 0px;
     margin-left: 50px;
+  }
 }
 
 @media only screen and (max-width: 1240px) {
@@ -21,8 +21,8 @@
     width: 80%;
     margin-bottom: 0px;
     margin-left: 50px;
+  }
 }
-
 
 @media only screen and (max-width: 1048px) {
   .menu a {
