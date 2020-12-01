@@ -141,6 +141,11 @@ nav {
   font-style: normal;
   color: #a35905;
   font-weight: bolder;
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -ms-animation: fadein 2s;
+  -o-animation: fadein 2s;
+  animation: fadein 2s;
 }
 
 .iphone-app-img {
