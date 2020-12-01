@@ -14,7 +14,7 @@
   vertical-align: middle;
 }
 
-.quote {
+#challenge-quote {
   font-size: 28px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -23,23 +23,23 @@
   padding-right: 15px;
 }
 
-.quote p {
+#challenge-quote p {
   font-size: 22px;
   padding-top: 30px;
 }
 
 @media only screen and (max-width: 991px) {
-  .quote {
+  #challenge-quote {
     font-size: 24px;
   }
 
-  .quote p {
+  #challenge-quote p {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 479px) {
-  .quote {
+  #challenge-quote {
     font-size: 20px;
     line-height: 24px;
   }
@@ -162,13 +162,11 @@
 @media screen and (max-width: 425px) {
   .challenge-page-banner {
     height: 70vh;
-
   }
 }
 
 @media screen and (max-width: 400px) {
   .challenge-page-banner {
     height: 65vh;
-
   }
 }
